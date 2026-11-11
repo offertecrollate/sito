@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4a0f15"><title>Privacy – Offerte Crollate</title><link rel="preload" href="assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:Archivo;src:url(assets/fonts/archivo.woff2) format("woff2");font-weight:400 900;font-stretch:62% 125%;font-display:swap}</style><style>
+:root{--bg:#f8f1f0;--ink:#2b1315;--muted:#7b5f5c;--card:#fff;--line:#ecdcda;--wine:#4a0f15;--wine2:#7a1420;
+--crimson:#d90f26;--crimson2:#f02a40;--go:#0e8f4a;--go2:#0aa456;--gold:#f4b012;--gold2:#ffd56b;--cream:#fff4e6;--radius:16px}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:radial-gradient(1100px 520px at 50% -160px,#f9d9d7 0%,var(--bg) 70%);color:var(--ink);
+font-family:Archivo,system-ui,sans-serif;font-size:16px;line-height:1.45;min-height:100vh;-webkit-text-size-adjust:100%}
+a{color:var(--crimson)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+.display{font-stretch:125%;font-weight:900;letter-spacing:-.01em;line-height:.95}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:14px 0 26px;color:var(--muted)}
+footer p{margin:0;max-width:90ch}footer a{color:inherit}.fine{font-size:11px;opacity:.85}
+
+/* ---------- pagina iniziale */
+.hero{position:relative;margin:18px auto 0;max-width:min(1180px,calc((100vh - 300px) * 16 / 9));border-radius:22px;overflow:hidden;
+box-shadow:0 26px 60px -28px rgba(122,20,32,.55);aspect-ratio:16/9;background:#2a0b0d}
+.hero img{width:100%;height:100%;object-fit:cover;display:block}
+.home{min-height:calc(100vh + 60px);padding-bottom:60px}.band{background:linear-gradient(180deg,#2a070b 0%,var(--wine) 100%);padding:22px 0 28px}.band-in{max-width:1520px;margin:0 auto;padding:0 18px;text-align:center}.band .hero{margin:0 auto;width:min(100%,calc(80vh * 16 / 9));max-width:none;aspect-ratio:16/9;box-shadow:0 30px 70px -25px rgba(0,0,0,.75)}.pitch{color:var(--cream);max-width:860px;margin:22px auto 0}.pitch h1{font-size:clamp(26px,3.3vw,50px);margin:0 0 12px;line-height:1.02;background:linear-gradient(180deg,#fff6d8 0%,#ffd56b 45%,#f4b012 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 3px 0 rgba(0,0,0,.35))}.pitch p{margin:0 auto;font-size:17px;color:#f6dcd7;max-width:58ch}.perks{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:18px 0 0;padding:0}.perks li{display:flex;align-items:center;gap:8px;background:rgba(255,244,230,.1);border:1px solid rgba(255,213,107,.45);color:var(--cream);border-radius:999px;padding:8px 16px 8px 10px;font-weight:700;font-size:15px}.perks .dot{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--wine);font-weight:900;font-size:14px}.perks .flags{display:inline-flex;align-items:center;gap:4px}.perks .flagsvg{width:24px;height:16px;border-radius:3px}.perks .flagsvg.sq{width:16px;height:16px}@media (max-width:900px){.band{padding:12px 0 20px}.band-in{padding:0 12px}.band .hero{width:100%}.pitch{margin-top:14px}.pitch h1{font-size:25px}.pitch p{font-size:14.5px}.perks{gap:6px}.perks li{font-size:13px;padding:6px 12px 6px 8px}}.home .tags{margin-top:24px}@media (min-width:721px){.home .tag{min-height:140px;padding-top:22px;padding-bottom:22px}}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.choose{text-align:center;margin:40px 0 8px;font-size:clamp(28px,4.5vw,46px);color:var(--wine)}
+.choose-sub{text-align:center;color:var(--muted);margin:0 0 30px}
+.tags{display:grid;grid-template-columns:1fr 1fr;gap:26px;max-width:980px;margin:30px auto 0}
+.tag{position:relative;display:flex;align-items:center;gap:22px;text-decoration:none;color:var(--wine);
+padding:30px 34px 30px 76px;min-height:170px;
+background:linear-gradient(160deg,var(--gold2),var(--gold) 55%,#d99400);
+clip-path:polygon(44px 0,100% 0,100% 100%,44px 100%,0 50%);
+filter:drop-shadow(0 14px 18px rgba(122,20,32,.18));transition:transform .18s ease}
+.tag::before{content:"";position:absolute;left:30px;top:50%;width:18px;height:18px;margin-top:-9px;border-radius:50%;
+background:var(--bg);box-shadow:inset 0 2px 3px rgba(0,0,0,.35)}
+.tag .flag{display:flex;filter:drop-shadow(0 4px 6px rgba(0,0,0,.25))}
+.flagsvg{width:84px;height:56px;border-radius:6px;display:block}.flagsvg.sq{width:58px;height:58px}
+.tag b{display:block;font-size:clamp(28px,3.6vw,42px)}
+.tag small{display:block;margin-top:6px;font-weight:600;font-size:15px}
+.tag .langs{font-weight:500;opacity:.75}
+.tag:hover{transform:rotate(-1.2deg) translateY(-3px)}
+.tag.ch{background:linear-gradient(160deg,#ff5a68,var(--crimson) 55%,#a80a1d);color:var(--cream)}
+@media (max-width:720px){.tags{grid-template-columns:1fr;gap:18px}.tag{min-height:120px;padding:22px 22px 22px 66px;gap:16px}
+.flagsvg{width:64px;height:43px}.flagsvg.sq{width:46px;height:46px}.hero{border-radius:14px;margin-top:12px}
+.tags{margin-top:20px}}
+
+/* ---------- pagine paese */
+.mast{background:linear-gradient(135deg,var(--wine) 0%,var(--wine2) 100%);color:var(--cream)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--cream)}
+.brand .logo{font-size:22px}
+.brand .logo span{color:var(--gold)}
+.langsw a{margin-left:12px;font-weight:700;text-decoration:none;color:#e4c3bf;padding:6px 2px}
+.langsw a[aria-current]{color:var(--gold)}
+.head{padding:4px 0 26px}
+.head h1{font-size:clamp(34px,6vw,64px);margin:6px 0 0}
+.head h1 .flagsvg{display:inline-block;width:.95em;height:.63em;vertical-align:baseline;margin-right:.15em}
+.head h1 .flagsvg.sq{width:.7em;height:.7em}
+.head p{margin:10px 0 0;color:#ecc9c4}
+.back{font-size:14px;color:#ecc9c4}
+.tools{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);
+border-bottom:1px solid var(--line);padding:12px 0;box-shadow:0 6px 18px -14px rgba(74,15,21,.4)}
+.row{display:flex;gap:10px;align-items:center}
+.row+.row{margin-top:10px}
+.search{flex:1 1 auto;position:relative;min-width:0}
+.search input{width:100%;padding:12px 14px 12px 42px;border-radius:12px;border:1px solid var(--line);
+background:#fff;color:var(--ink);font:inherit;font-size:16px}
+.search svg{position:absolute;left:14px;top:50%;margin-top:-9px;color:var(--muted)}
+select{padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--ink);font:inherit;font-size:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -18px;padding:0 18px 2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;
+padding:8px 14px;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
+.chip .n{color:var(--muted);margin-left:6px;font-size:12px}
+.chip[aria-pressed="true"]{background:var(--wine);color:var(--cream);border-color:var(--wine)}
+.chip[aria-pressed="true"] .n{color:#e4c3bf}
+.disc .chip[aria-pressed="true"]{background:var(--gold);color:var(--wine);border-color:var(--gold)}
+.count{margin:20px 0 12px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:14px}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+padding:12px;display:flex;flex-direction:column;gap:6px;position:relative;box-shadow:0 10px 24px -20px rgba(74,15,21,.45)}
+.deal .imgbox{height:135px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;
+overflow:hidden;border:1px solid #f3e8e7;padding:10px}
+.deal .imgbox img{max-width:100%;max-height:100%;object-fit:contain}
+.pct{position:absolute;top:10px;right:-6px;z-index:1;background:var(--gold);color:var(--wine);font-stretch:110%;font-weight:900;
+font-size:19px;padding:4px 14px 4px 20px;clip-path:polygon(10px 0,100% 0,100% 100%,10px 100%,0 50%);
+filter:drop-shadow(0 4px 6px rgba(74,15,21,.25))}
+.level{font-weight:800;font-size:13px;color:var(--crimson)}
+.level.offerta{color:#b77800}
+.name{font-size:14.5px;font-weight:600;line-height:1.28;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.price{font-size:21px;font-weight:900;font-stretch:110%;color:var(--wine)}
+.old{color:var(--muted);font-size:13px;margin-left:6px;display:inline-block;white-space:nowrap}
+.old s{text-decoration-thickness:2px}
+.meta{font-size:11.5px;line-height:1.35;color:var(--muted)}
+.btn{display:block;text-align:center;background:var(--go);color:#fff;text-decoration:none;font-weight:800;
+border-radius:10px;padding:9px;font-size:14.5px;margin-top:auto}
+.btn:hover{background:var(--go2)}
+.empty{text-align:center;padding:50px 10px;color:var(--muted)}
+.empty button{margin-top:12px}
+.hidden{display:none!important}
+.cbox summary{font-size:12.5px;color:var(--muted);cursor:pointer;padding:2px 0}.cbox[open] summary{margin-bottom:2px}.chart{margin:4px 0 0;position:relative}
+.chart figcaption{font-size:12px;color:var(--muted);margin-bottom:2px;display:flex;justify-content:flex-end}
+.leg i{display:inline-block;width:16px;border-top:1px dashed #a88d89;margin-right:6px;vertical-align:middle}
+.chart svg{width:100%;height:auto;display:block}
+.chart .grid{stroke:#efe4e3;stroke-width:1}.chart .ref{stroke:#a88d89;stroke-width:1;stroke-dasharray:4 3}
+.chart .ax{font-size:10px;fill:#7b5f5c}.chart .hx{stroke:#c8b3b0;stroke-width:1}
+.tip{position:absolute;top:18px;background:var(--wine);color:var(--cream);font-size:12px;padding:4px 7px;
+border-radius:5px;pointer-events:none;white-space:nowrap;transform:translateX(-50%)}
+.legal{max-width:760px;margin:0 auto;padding:24px 18px;line-height:1.6}
+.legal .imp{margin-top:36px;font-size:11px;line-height:1.4;color:var(--muted)}.legal h1{font-size:clamp(30px,5vw,48px);color:var(--wine)}
+@media (max-width:640px){
+ .grid{grid-template-columns:1fr;gap:8px}
+ .tools{padding:10px 0}
+ .row:first-child{flex-wrap:nowrap}
+ select{max-width:36%;padding:11px 6px;font-size:15px}
+ .search input{padding-left:38px}
+ .head{padding-bottom:18px}
+ .brand .logo{font-size:19px}
+ .count{margin:14px 0 8px}
+ /* scheda in stile Amazon: foto a sinistra, testo a destra */
+ .deal{display:grid;grid-template-columns:84px 1fr;column-gap:10px;row-gap:2px;padding:8px;border-radius:12px;align-items:start}
+ .deal>*{grid-column:2}
+ .deal .imgbox{grid-column:1;grid-row:1/span 6;width:84px;height:84px;padding:4px;border-radius:8px}
+ .deal>.pct{grid-column:1;grid-row:1}
+ .pct{top:4px;left:4px;right:auto;font-size:12.5px;padding:2px 6px 2px 11px;clip-path:polygon(7px 0,100% 0,100% 100%,7px 100%,0 50%)}
+ .level{font-size:11px}
+ .name{font-size:13.5px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .price{font-size:17px}
+ .old{font-size:12.5px;margin-left:0;display:block;white-space:nowrap}
+ .meta{font-size:11px;line-height:1.3}
+ .cbox{grid-column:1/-1}
+ .btn{grid-column:1/-1;padding:9px;font-size:14px;border-radius:10px;margin-top:6px}
+}
+@media (max-width:640px){
+ /* pagina iniziale: tutto centrato e in proporzione */
+ .band{padding:10px 0 18px}
+ .band-in{padding:0 10px}
+ .band .hero{border-radius:12px}
+ .pitch{margin-top:14px;padding:0 6px}
+ .pitch h1{font-size:21px;line-height:1.12;margin-bottom:8px}
+ .pitch p{font-size:13.5px;line-height:1.4}
+ .perks{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:14px}
+ .perks li{flex-direction:column;justify-content:flex-start;text-align:center;gap:5px;border-radius:12px;
+  padding:9px 4px;font-size:11.5px;line-height:1.2;font-weight:700}
+ .perks .dot{width:22px;height:22px;font-size:12px}
+ .perks .flagsvg{width:22px;height:15px}.perks .flagsvg.sq{width:15px;height:15px;margin-left:0}
+ .perks li:nth-child(2){flex-direction:column}
+ .home .tags{grid-template-columns:1fr 1fr;gap:10px;margin-top:18px;padding:0 2px}
+ .tag{flex-direction:column;align-items:flex-start;gap:8px;min-height:0;padding:16px 12px 16px 40px;
+  clip-path:polygon(26px 0,100% 0,100% 100%,26px 100%,0 50%)}
+ .tag::before{left:15px;width:11px;height:11px;margin-top:-5.5px}
+ .tag .flagsvg{width:44px;height:29px;border-radius:4px}.tag .flagsvg.sq{width:31px;height:31px}
+ .tag b{font-size:22px}
+ .tag small{font-size:12px;margin-top:3px}
+ .tag:hover{transform:none}
+ /* pagine paese: intestazione più bassa, pulsante piccolo come su Amazon */
+ .head h1{font-size:34px}
+ .head p{font-size:14px;margin-top:6px}
+ .btn{grid-column:2!important;justify-self:start;display:inline-block;padding:7px 14px!important;font-size:13px!important;
+  border-radius:8px!important;margin-top:6px!important}
+ .cbox{grid-column:2!important}
+ .cbox summary{font-size:11.5px}
+}
+html:has(body.homepage){background:#4a0f15}body.homepage{background:linear-gradient(180deg,#2a070b 0px,var(--wine) 380px,var(--wine) 100%)}.homepage .band{background:none}.homepage .tag::before{background:var(--wine)}.homepage .tag{filter:drop-shadow(0 14px 22px rgba(0,0,0,.35))}.homepage footer{border-top-color:rgba(255,255,255,.12);color:#d9b3ae}.homepage footer a{color:var(--gold2)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body class=""><main class="legal"><a href="index.html">Offerte Crollate</a>
+<h1 class="display">Info e privacy</h1>
+<h2>Quali dati raccogliamo</h2><p>Questo sito non richiede registrazione, non ha moduli e non usa cookie propri
+né strumenti di statistica. Il servizio che ospita il sito (GitHub Pages) può registrare per motivi di sicurezza
+dati tecnici come l'indirizzo IP del visitatore.</p>
+<h2>Link di affiliazione</h2><p>Molti link portano a negozi online con cui abbiamo un accordo di affiliazione:
+se acquisti dopo aver cliccato, riceviamo una commissione, senza costi aggiuntivi per te.
+In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei.
+Quando apri un negozio, valgono la privacy e i cookie di quel negozio.</p>
+<h2>Prezzi</h2><p>I prezzi sono quelli rilevati alla data e ora indicate accanto a ogni offerta e possono cambiare
+in qualsiasi momento. Fa fede il prezzo mostrato dal negozio al momento dell'acquisto.</p>
+<h2>I tuoi diritti</h2><p>Per qualsiasi richiesta sui tuoi dati scrivi a offertecrollate@gmail.com.</p>
+<p class="imp">Gestore del sito: Giuseppe Lo Verde, Via della Pineta 24, 34151 Trieste, Italia, offertecrollate@gmail.com</p></main></body></html>
