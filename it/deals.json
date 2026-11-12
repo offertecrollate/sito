@@ -176,6 +176,22 @@
   "history": []
  },
  {
+  "key": "awin:acerit:acer-ek1-monitor-ek241yp0-nero",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer EK1 monitor 24\" EK241YP0",
+  "price": 64.99,
+  "ref": 104.99,
+  "pct": 38.1,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-ek1-monitor-ek241yp0-nero&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/A/c/Acer-Monitor-EK1-EK241Y-P0-wallpaper-01.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
   "key": "manual:euronics:11:14006635",
   "source": "manuale",
   "category": "smartphone",
@@ -256,6 +272,38 @@
   "history": []
  },
  {
+  "key": "awin:acerit:acer-aspire-17-notebook-a17-51m-grigio-nx-jl4et-003",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Aspire 17 notebook A17-51M Grigio",
+  "price": 1199.99,
+  "ref": 1699.99,
+  "pct": 29.4,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-aspire-17-notebook-a17-51m-grigio-nx-jl4et-003&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-aspire-17-a17-51m-with-fingerprint-with-backlit-on-wallpaper-start-screen-steel-gray-01_34.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
+  "key": "awin:acerit:acer-aspire-go-15-notebook-ag15-72p-argento-nx-jtret-00g",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Aspire Go 15 notebook AG15-72P (NX.JTRET.00G)",
+  "price": 849.99,
+  "ref": 1199.99,
+  "pct": 29.2,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-aspire-go-15-notebook-ag15-72p-argento-nx-jtret-00g&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-aspire-go-15-ag15-72p-non-fingerprint-non-backlit-wp-start-screen-pure-silver-01_20.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
   "key": "manual:euronics:17:21056287",
   "source": "manuale",
   "category": "smartphone",
@@ -288,6 +336,54 @@
   "history": []
  },
  {
+  "key": "awin:acerit:acer-aspire-go-15-notebook-ag15-72p-argento-nx-jrret-01l",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Aspire Go 15 notebook AG15-72P Argento",
+  "price": 599.99,
+  "ref": 799.99,
+  "pct": 25.0,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-aspire-go-15-notebook-ag15-72p-argento-nx-jrret-01l&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-aspire-go-15-ag15-72p-non-fingerprint-non-backlit-wp-start-screen-pure-silver-01_30.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
+  "key": "awin:acerit:acer-nitro-xf0-monitor-gaming-xf240yp6-nero",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Nitro XF0 monitor gaming 24\" XF240YP6",
+  "price": 89.99,
+  "ref": 119.99,
+  "pct": 25.0,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-nitro-xf0-monitor-gaming-xf240yp6-nero&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-nitro-monitor-xf240y-w3-xf270-w3-xf240y-p6-xf270-p6--wp-black-01-1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
+  "key": "awin:acerit:acer-cb2-monitor-vero-cb272p6-nero",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer CB2 monitor 27\" Vero CB272P6",
+  "price": 119.99,
+  "ref": 159.99,
+  "pct": 25.0,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-cb2-monitor-vero-cb272p6-nero&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/C/B/CB242Y-P6-CB272-P6_01_wp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
   "key": "manual:euronics:18:89096688",
   "source": "manuale",
   "category": "giochi",
@@ -317,6 +413,22 @@
   "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw9075b97e/hi-res/242010709.jpg?sw=600&q=90&strip=false",
   "currency": "EUR",
   "at": "2026-11-12T11:39",
+  "history": []
+ },
+ {
+  "key": "awin:acerit:acer-nitro-v-15-notebook-gaming-anv15-52-nero-nh-qz9et-027",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Nitro V 15 notebook gaming ANV15-52",
+  "price": 1499.99,
+  "ref": 1899.99,
+  "pct": 21.1,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-nitro-v-15-notebook-gaming-anv15-52-nero-nh-qz9et-027&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-nitro-v-15-anv15-52-non-fingerprint-with-backlit-on-wp-black-01_28.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
   "history": []
  },
  {
@@ -384,6 +496,22 @@
   "history": []
  },
  {
+  "key": "awin:acerit:acer-swift-go-16-ai-oled-notebook-ultra-sottile-sfg16-i71-grigio-nx-jwnet-005",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Swift Go 16 AI OLED notebook SFG16-I71",
+  "price": 1249.99,
+  "ref": 1499.99,
+  "pct": 16.7,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-swift-go-16-ai-oled-notebook-ultra-sottile-sfg16-i71-grigio-nx-jwnet-005&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-swift-go-16-ai-sfg16-i71-non-fingerprint-with-backlit-on-with-touchpad-cofn-mode-on-wp-oled-copilot-titanium-gray-01_12.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
   "key": "manual:euronics:24:77355762",
   "source": "manuale",
   "category": "altro",
@@ -432,6 +560,22 @@
   "history": []
  },
  {
+  "key": "awin:acerit:acer-aspire-xc-desktop-xc-1860-nero",
+  "source": "awin",
+  "category": "altro",
+  "name": "Acer Aspire XC desktop XC-1860 Nero",
+  "price": 899.99,
+  "ref": 1049.99,
+  "pct": 14.3,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-aspire-xc-desktop-xc-1860-nero&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-aspire-xc-1860-non-odd-with-sd-card-reader-02_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
+  "history": []
+ },
+ {
   "key": "manual:euronics:27:12782612",
   "source": "manuale",
   "category": "altro",
@@ -445,6 +589,22 @@
   "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw29d1e5b9/hi-res/252012543.jpg?sw=600&q=90&strip=false",
   "currency": "EUR",
   "at": "2026-11-12T11:39",
+  "history": []
+ },
+ {
+  "key": "awin:acerit:acer-aspire-14-ai-notebook-a14-a71m-argento",
+  "source": "awin",
+  "category": "informatica",
+  "name": "Acer Aspire 14 AI notebook A14-A71M Argento",
+  "price": 949.99,
+  "ref": 1099.99,
+  "pct": 13.6,
+  "level": "offerta",
+  "shop": "Acer Store",
+  "url": "https://www.awin1.com/cread.php?awinmid=15530&awinaffid=3152592&clickref=sito&ued=https%3A%2F%2Fstore.acer.com%2Fit-it%2Facer-aspire-14-ai-notebook-a14-a71m-argento&platform=pl",
+  "image": "https://static2-ecemea.acer.com/media/catalog/product/a/c/acer-aspire-14-ai-a14-a71m-non-fingerprint-with-backlit-on-wp-copilot-pure-silver-01_9.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500",
+  "currency": "EUR",
+  "at": "2026-11-12T15:23",
   "history": []
  },
  {
