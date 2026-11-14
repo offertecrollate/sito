@@ -82,6 +82,13 @@ label.search:focus-within{border-color:#e30613}
 .cbtn button{flex:1;min-height:44px;border-radius:10px;font-weight:800;font-size:14px;border:1px solid #333;background:none;color:#ddd}
 .cbtn button[type=submit]{background:#e30613;border-color:#e30613;color:#fff;flex:1.6}
 .results{display:flex;flex-direction:column;gap:14px;min-width:0}
+.ck.ad{border-top:1px solid #2a2a2a;margin-top:6px;padding-top:8px;border-radius:0 0 10px 10px}
+.agegate{position:fixed;inset:0;z-index:50;background:rgba(7,7,7,.94);display:flex;align-items:center;justify-content:center;padding:20px}
+.agegate>div{max-width:440px;background:#121212;border:1px solid #333;border-radius:18px;padding:26px;text-align:center;display:flex;flex-direction:column;gap:14px}
+.agegate h2{margin:0;font-size:24px}.agegate p{margin:0;color:#ddd;line-height:1.5}.agegate .big{font-size:44px}
+.agegate button{min-height:52px;border:0;border-radius:12px;background:#e30613;color:#fff;font-weight:800;font-size:17px}
+.agegate a{color:#bbb;font-weight:700;min-height:44px;display:flex;align-items:center;justify-content:center}
+.locked{filter:blur(22px);pointer-events:none;user-select:none}
 @media (max-width:860px){.layout{grid-template-columns:1fr;gap:12px}.side{top:calc(var(--fh,96px) + 6px);z-index:15;max-height:calc(100vh - var(--fh,96px) - 16px);padding:0 12px;box-shadow:0 0 0 10px #070707,0 14px 18px -6px rgba(0,0,0,.75)}.side summary{min-height:48px;font-size:16px}.side details[open]{padding-bottom:12px}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:16px}
 .deal{position:relative;background:#fff;color:#111;border-radius:14px;padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px}
@@ -157,6 +164,8 @@ footer a{color:#ddd}
  function shut(){if(d&&window.innerWidth<=860)d.open=false;}
  var boxes=[].slice.call(f.querySelectorAll('input[name=c]')), home=f.dataset.home, isCat=f.dataset.page==='cat';
  function sel(){return boxes.filter(function(b){return b.checked;});}
+ boxes.forEach(function(b){b.addEventListener('change',function(){ if(!b.checked)return;
+  boxes.forEach(function(x){ if(x!==b&&(b.dataset.solo||x.dataset.solo))x.checked=false; }); });});
  var m=location.hash.match(/cat=([a-z0-9_,-]+)/);
  if(m&&!isCat){var l=m[1].split(','); boxes.forEach(function(b){b.checked=l.indexOf(b.value)>=0;}); if(window.ocCats)window.ocCats(l);}
  f.addEventListener('submit',function(e){e.preventDefault(); var s=sel();
