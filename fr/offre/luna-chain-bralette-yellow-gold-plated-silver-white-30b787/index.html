@@ -9,7 +9,7 @@ button,input,select{font-family:inherit}
 button{cursor:pointer}
 :focus-visible{outline:3px solid #ffcc00;outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.wrap{max-width:1760px;margin:0 auto;padding:16px clamp(12px,2.4vw,40px) 40px;display:flex;flex-direction:column;gap:18px}
+.wrap{max-width:2200px;margin:0 auto;padding:16px clamp(12px,1.6vw,32px) 40px;display:flex;flex-direction:column;gap:18px}
 header.top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
 .brandrow{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
 .brand img{height:74px;width:auto;display:block}
@@ -91,7 +91,7 @@ label.search:focus-within{border-color:#e30613}
 .locked{filter:blur(22px);pointer-events:none;user-select:none}
 @media (max-width:860px){.layout{grid-template-columns:1fr;gap:12px}.side{top:calc(var(--fh,96px) + 6px);z-index:15;max-height:calc(100vh - var(--fh,96px) - 16px);padding:0 12px;box-shadow:0 0 0 10px #070707,0 14px 18px -6px rgba(0,0,0,.75)}.side summary{min-height:48px;font-size:16px}.side details[open]{padding-bottom:12px}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:16px}
-@media (min-width:1500px){.layout{grid-template-columns:280px minmax(0,1fr);gap:26px}.grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}}
+@media (min-width:1500px){.layout{grid-template-columns:280px minmax(0,1fr);gap:26px}.grid{grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:18px}}
 .deal{position:relative;background:#fff;color:#111;border-radius:14px;padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px}
 .deal .pct{position:absolute;top:12px;left:12px;background:#e30613;color:#fff;font-weight:900;font-size:18px;padding:4px 9px;border-radius:8px;z-index:1}
 .deal .err{position:absolute;top:46px;left:12px;background:#ffd400;color:#111;font-weight:800;font-size:12px;padding:3px 7px;border-radius:6px;z-index:1}
