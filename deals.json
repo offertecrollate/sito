@@ -12,7 +12,7 @@
   "url": "https://www.amazon.it/dp/607819514X?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31ZVSPhSY4L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-15",
@@ -21,103 +21,6 @@
    [
     "2026-11-16",
     9.28
-   ]
-  ]
- },
- {
-  "key": "amazon_it:B0DT1KFV52",
-  "source": "amazon_it",
-  "category": "altro",
-  "name": "Tommy Hilfiger Donna Pantaloni in Tessuto Punto Relaxed Straight Fit, Nero (Black), 40",
-  "price": 23.73,
-  "ref": 149.9,
-  "pct": 84.2,
-  "level": "offerta",
-  "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0DT1KFV52?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/31thuqZjlYL.jpg",
-  "currency": "EUR",
-  "at": "2026-11-16T07:13",
-  "history": [
-   [
-    "2026-08-22",
-    43.26
-   ],
-   [
-    "2026-08-26",
-    38.93
-   ],
-   [
-    "2026-08-29",
-    35.04
-   ],
-   [
-    "2026-09-01",
-    119.92
-   ],
-   [
-    "2026-09-03",
-    35.04
-   ],
-   [
-    "2026-09-06",
-    119.92
-   ],
-   [
-    "2026-09-09",
-    68.05
-   ],
-   [
-    "2026-09-13",
-    96.45
-   ],
-   [
-    "2026-09-17",
-    68.05
-   ],
-   [
-    "2026-09-20",
-    96.48
-   ],
-   [
-    "2026-09-22",
-    95.11
-   ],
-   [
-    "2026-09-28",
-    94.95
-   ],
-   [
-    "2026-10-05",
-    49.62
-   ],
-   [
-    "2026-10-10",
-    92.11
-   ],
-   [
-    "2026-10-16",
-    87.64
-   ],
-   [
-    "2026-10-23",
-    89.2
-   ],
-   [
-    "2026-10-28",
-    90.06
-   ],
-   [
-    "2026-11-10",
-    87.61
-   ],
-   [
-    "2026-11-15",
-    26.37
-   ],
-   [
-    "2026-11-16",
-    23.73
    ]
   ]
  },
@@ -134,7 +37,7 @@
   "url": "https://www.amazon.it/dp/B0FBGR4LRT?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21h1tMvJYWL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-18",
@@ -279,7 +182,7 @@
   "url": "https://www.amazon.it/dp/B0D9H4WG4J?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21pZwRCFa6L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-10",
@@ -308,7 +211,7 @@
   "url": "https://www.amazon.it/dp/B09ZVLB9W7?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31efSIZCVWL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-09-02",
@@ -389,7 +292,7 @@
   "url": "https://www.amazon.it/dp/1529085624?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41NHekolqhL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-10-30",
@@ -418,7 +321,7 @@
   "url": "https://www.amazon.it/dp/1737595087?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/51rLibVNFmL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-20",
@@ -447,7 +350,7 @@
   "url": "https://www.amazon.it/dp/B0DJC9ZXCG?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/51WignQubsL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-27",
@@ -596,6 +499,43 @@
   ]
  },
  {
+  "key": "amazon_it:B0DR1KCZM7",
+  "source": "amazon_it",
+  "category": "moda",
+  "name": "Lee - Jeans Uomo - vestibilità Dritta Regular - West - Blue Beam",
+  "price": 23.17,
+  "ref": 89.95,
+  "pct": 74.2,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0DR1KCZM7?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/41aOMsqn2jL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-21",
+    71.96
+   ],
+   [
+    "2026-09-21",
+    76.46
+   ],
+   [
+    "2026-10-19",
+    62.97
+   ],
+   [
+    "2026-11-11",
+    90.0
+   ],
+   [
+    "2026-11-16",
+    23.17
+   ]
+  ]
+ },
+ {
   "key": "amazon_it:B0D9H1L94D",
   "source": "amazon_it",
   "category": "altro",
@@ -608,7 +548,7 @@
   "url": "https://www.amazon.it/dp/B0D9H1L94D?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/311R4O-bTdL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-19",
@@ -685,7 +625,7 @@
   "url": "https://www.amazon.it/dp/B0DT4RNFZV?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31MMFnP++SL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-20",
@@ -738,67 +678,6 @@
   ]
  },
  {
-  "key": "amazon_it:B0FH123LLC",
-  "source": "amazon_it",
-  "category": "altro",
-  "name": "Hugo Polo da Uomo, Light/Pastel Brown 237, S",
-  "price": 27.43,
-  "ref": 99.95,
-  "pct": 72.6,
-  "level": "offerta",
-  "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0FH123LLC?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/31RVg2aLeVL.jpg",
-  "currency": "EUR",
-  "at": "2026-11-16T07:13",
-  "history": [
-   [
-    "2026-08-23",
-    94.95
-   ],
-   [
-    "2026-09-05",
-    81.77
-   ],
-   [
-    "2026-09-14",
-    99.95
-   ],
-   [
-    "2026-10-06",
-    79.99
-   ],
-   [
-    "2026-10-12",
-    61.77
-   ],
-   [
-    "2026-10-19",
-    48.14
-   ],
-   [
-    "2026-10-30",
-    41.0
-   ],
-   [
-    "2026-11-06",
-    31.89
-   ],
-   [
-    "2026-11-11",
-    29.92
-   ],
-   [
-    "2026-11-15",
-    29.92
-   ],
-   [
-    "2026-11-16",
-    27.43
-   ]
-  ]
- },
- {
   "key": "amazon_it:1472277546",
   "source": "amazon_it",
   "category": "altro",
@@ -811,7 +690,7 @@
   "url": "https://www.amazon.it/dp/1472277546?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/51ZZBvQf5qL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-10-19",
@@ -856,7 +735,7 @@
   "url": "https://www.amazon.it/dp/B0C61X5KWJ?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21YfIV+juFL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-24",
@@ -901,7 +780,7 @@
   "url": "https://www.amazon.it/dp/B0CZS9JJT6?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41H9HewQrLL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-12",
@@ -930,7 +809,7 @@
   "url": "https://www.amazon.it/dp/B0F1NL4GDY?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41TOJgEr3VL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-09-16",
@@ -963,7 +842,7 @@
   "url": "https://www.amazon.it/dp/B0009586CU?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41ZPcK5J6YL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-10-31",
@@ -972,6 +851,72 @@
    [
     "2026-11-16",
     2.38
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0C4P9266H",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "NOVOO Caricabatterie USB-C 35W, GaN III, 2 Porte",
+  "price": 16.01,
+  "ref": 53.56,
+  "pct": 70.1,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0C4P9266H?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31oOEVjq8QL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-09-26",
+    53.56
+   ],
+   [
+    "2026-10-17",
+    67.67
+   ],
+   [
+    "2026-10-18",
+    67.67
+   ],
+   [
+    "2026-11-16",
+    16.01
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0DHLV4P1B",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Videocamera Blink Outdoor 4 - Videocamera di sicurezza smart HD wireless, autonomia di due anni, compatibile con Alexa - Sistema a 1 telecamera con Sync Module Core incluso - IP65",
+  "price": 24.99,
+  "ref": 79.99,
+  "pct": 68.8,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0DHLV4P1B?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31Gf0MoNgrL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-28",
+    79.99
+   ],
+   [
+    "2026-09-29",
+    24.99
+   ],
+   [
+    "2026-10-12",
+    79.99
+   ],
+   [
+    "2026-11-16",
+    24.99
    ]
   ]
  },
@@ -988,7 +933,7 @@
   "url": "https://www.amazon.it/dp/B08SDTHMQB?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41vELyDT7xS.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-31",
@@ -1105,26 +1050,30 @@
   ]
  },
  {
-  "key": "amazon_it:B0C4YV24CJ",
+  "key": "amazon_it:B0C4YQSLBZ",
   "source": "amazon_it",
   "category": "sport",
-  "name": "Amazon Essentials Pantaloni da Golf Elasticizzati dalla vestibilità Sportiva (Disponibili in Taglie Extra Forti) Uomo, Nero, 58W / 30L",
+  "name": "Amazon Essentials Pantaloni da Golf Elasticizzati dalla vestibilità Sportiva (Disponibili in Taglie Extra Forti) Uomo, Nero, 32W / 29L",
   "price": 8.74,
   "ref": 26.4,
   "pct": 66.9,
   "level": "offerta",
   "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0C4YV24CJ?tag=offertecrolla-21",
+  "url": "https://www.amazon.it/dp/B0C4YQSLBZ?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/315eDdjWmTL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
-    "2026-09-09",
+    "2026-10-13",
     38.9
    ],
    [
-    "2026-10-22",
+    "2026-10-20",
+    29.3
+   ],
+   [
+    "2026-10-24",
     26.4
    ],
    [
@@ -1132,12 +1081,41 @@
     38.9
    ],
    [
-    "2026-11-15",
+    "2026-11-16",
     8.74
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0F94PV9QJ",
+  "source": "amazon_it",
+  "category": "moda",
+  "name": "Videocamera esterna 2K+ Blink (ultimo modello) — videocamera di sicurezza smart senza fili, risoluzione video 2K, modulo di sincronizzazione di base non incluso - Solo videocamera supplementare",
+  "price": 29.99,
+  "ref": 89.99,
+  "pct": 66.7,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0F94PV9QJ?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/217MtcKwpCL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-28",
+    89.99
+   ],
+   [
+    "2026-09-29",
+    29.99
+   ],
+   [
+    "2026-10-12",
+    89.99
    ],
    [
     "2026-11-16",
-    8.74
+    29.99
    ]
   ]
  },
@@ -1154,7 +1132,7 @@
   "url": "https://www.amazon.it/dp/B0D9H47Z53?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21TGRwu-DzL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-09-25",
@@ -1199,7 +1177,7 @@
   "url": "https://www.amazon.it/dp/B0FW6X745Y?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41DjQpHQHdL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-15",
@@ -1208,6 +1186,59 @@
    [
     "2026-11-16",
     9.99
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B003WT1618",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Bodum K11143-16 Chambord Set, Teiera a pistone con filtro in plastica, 1.3 Litri",
+  "price": 37.89,
+  "ref": 109.9,
+  "pct": 65.5,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B003WT1618?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/41t0+sEHJjL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-21",
+    73.09
+   ],
+   [
+    "2026-09-04",
+    109.9
+   ],
+   [
+    "2026-09-26",
+    82.43
+   ],
+   [
+    "2026-09-30",
+    100.01
+   ],
+   [
+    "2026-10-04",
+    109.9
+   ],
+   [
+    "2026-10-07",
+    90.12
+   ],
+   [
+    "2026-10-10",
+    86.82
+   ],
+   [
+    "2026-10-15",
+    109.9
+   ],
+   [
+    "2026-11-16",
+    37.89
    ]
   ]
  },
@@ -1224,7 +1255,7 @@
   "url": "https://www.amazon.it/dp/B08MFP8GWB?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21HOlY7RALL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-25",
@@ -1277,7 +1308,7 @@
   "url": "https://www.amazon.it/dp/B0DJRHW56S?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41HtP6a9d4L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-28",
@@ -1338,7 +1369,7 @@
   "url": "https://www.amazon.it/dp/B0CP5S6F55?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/21mBOBDHbnL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-09-09",
@@ -1391,7 +1422,7 @@
   "url": "https://www.amazon.it/dp/B0G4NF3JG2?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41BtiHu1P4L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-10-29",
@@ -1408,79 +1439,227 @@
   ]
  },
  {
-  "key": "amazon_it:B0F1G4YTD7",
+  "key": "amazon_it:9875748455",
   "source": "amazon_it",
-  "category": "bellezza",
-  "name": "Oral-B iO 5 Spazzolino Elettrico, con 1 Testina di Ricambio, Astuccio, Nero",
-  "price": 84.89,
-  "ref": 229.99,
+  "category": "altro",
+  "name": "El campo y la ciudad",
+  "price": 17.99,
+  "ref": 48.7,
   "pct": 63.1,
   "level": "offerta",
   "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0F1G4YTD7?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/51KJMCP84zL.jpg",
+  "url": "https://www.amazon.it/dp/9875748455?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31S2xQccV2L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
-    "2026-08-19",
-    110.32
+    "2026-11-16",
+    17.99
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B07YC7DQB5",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Superfit Ciabatte Bubble 36 EU, grigio., 36 EU",
+  "price": 11.11,
+  "ref": 29.9,
+  "pct": 62.8,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B07YC7DQB5?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31WJ3KdOcGL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-21",
+    32.96
    ],
    [
-    "2026-08-25",
-    99.29
+    "2026-08-26",
+    33.06
    ],
    [
-    "2026-08-28",
-    89.36
+    "2026-09-10",
+    35.34
    ],
    [
-    "2026-09-01",
-    90.58
+    "2026-09-14",
+    35.09
    ],
    [
-    "2026-09-02",
-    229.99
+    "2026-09-19",
+    33.11
    ],
    [
-    "2026-10-06",
-    99.99
+    "2026-09-27",
+    34.49
    ],
    [
-    "2026-10-07",
-    99.99
-   ],
-   [
-    "2026-10-08",
-    126.55
-   ],
-   [
-    "2026-10-09",
-    126.56
-   ],
-   [
-    "2026-10-10",
-    170.19
-   ],
-   [
-    "2026-10-14",
-    135.71
-   ],
-   [
-    "2026-10-19",
-    133.23
-   ],
-   [
-    "2026-11-11",
-    108.69
-   ],
-   [
-    "2026-11-14",
-    229.99
+    "2026-10-12",
+    29.9
    ],
    [
     "2026-11-16",
-    84.89
+    11.11
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0D9H2CGTL",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Superfit Sparkle, Sandali Ragazze, Giallo Bianco 6000, 32 EU",
+  "price": 13.8,
+  "ref": 36.88,
+  "pct": 62.6,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0D9H2CGTL?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/21cqeyhlafL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-11-12",
+    48.82
+   ],
+   [
+    "2026-11-15",
+    13.8
+   ],
+   [
+    "2026-11-16",
+    13.8
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B098BBSV3J",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "4R Quattroerre.it 17110 Adesivi Stella Army Militare per Jeep Renegade Cofano Portiera Anteriore, Diametro 33 cm, Nero Opaco, 2 Pezzi",
+  "price": 13.1,
+  "ref": 34.9,
+  "pct": 62.5,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B098BBSV3J?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/414Xtpw6NMS.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-20",
+    38.24
+   ],
+   [
+    "2026-08-27",
+    35.76
+   ],
+   [
+    "2026-08-31",
+    34.9
+   ],
+   [
+    "2026-10-06",
+    29.67
+   ],
+   [
+    "2026-10-10",
+    34.9
+   ],
+   [
+    "2026-10-20",
+    36.16
+   ],
+   [
+    "2026-10-25",
+    36.14
+   ],
+   [
+    "2026-10-31",
+    37.48
+   ],
+   [
+    "2026-11-15",
+    13.1
+   ],
+   [
+    "2026-11-16",
+    13.1
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0D31RCTHQ",
+  "source": "amazon_it",
+  "category": "giochi",
+  "name": "EPOCH Games - Jurassic World - Cage Breaker, Gioco d'Azione Emozionante – Salva il Velociraptor dalla Gabbia – Modello 7523",
+  "price": 9.99,
+  "ref": 26.41,
+  "pct": 62.2,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0D31RCTHQ?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/51IeSR79yOL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-10-16",
+    27.74
+   ],
+   [
+    "2026-10-20",
+    24.97
+   ],
+   [
+    "2026-10-23",
+    20.22
+   ],
+   [
+    "2026-10-25",
+    26.3
+   ],
+   [
+    "2026-10-27",
+    26.4
+   ],
+   [
+    "2026-10-28",
+    26.41
+   ],
+   [
+    "2026-10-29",
+    26.4
+   ],
+   [
+    "2026-10-30",
+    26.41
+   ],
+   [
+    "2026-11-01",
+    26.45
+   ],
+   [
+    "2026-11-02",
+    27.29
+   ],
+   [
+    "2026-11-03",
+    27.45
+   ],
+   [
+    "2026-11-10",
+    27.54
+   ],
+   [
+    "2026-11-16",
+    9.99
    ]
   ]
  },
@@ -1497,7 +1676,7 @@
   "url": "https://www.amazon.it/dp/B09492RD6C?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31GziGY0u-L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-18",
@@ -1586,7 +1765,7 @@
   "url": "https://www.amazon.it/dp/B00FY5QUT6?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31wNaqHDE8L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-26",
@@ -1619,136 +1798,23 @@
   ]
  },
  {
-  "key": "amazon_it:B0DT4QQCXT",
+  "key": "amazon_it:9021041561",
   "source": "amazon_it",
   "category": "altro",
-  "name": "Superfit Stivali da neve da ragazzo con calda imbottitura Gore-tex, Nero Grigio Chiaro 0040, 29 EU Larga",
-  "price": 24.22,
-  "ref": 61.85,
-  "pct": 60.8,
+  "name": "De vrouwen van de suikerrietplantage",
+  "price": 13.95,
+  "ref": 35.99,
+  "pct": 61.2,
   "level": "offerta",
   "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0DT4QQCXT?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/21VwYqBEmDL.jpg",
+  "url": "https://www.amazon.it/dp/9021041561?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/51hc1DnnFyL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
-    "2026-08-18",
-    71.08
-   ],
-   [
-    "2026-08-22",
-    65.1
-   ],
-   [
-    "2026-08-26",
-    61.02
-   ],
-   [
-    "2026-08-29",
-    89.95
-   ],
-   [
-    "2026-09-03",
-    63.75
-   ],
-   [
-    "2026-09-06",
-    64.43
-   ],
-   [
-    "2026-09-17",
-    89.95
-   ],
-   [
-    "2026-09-30",
-    63.94
-   ],
-   [
-    "2026-10-06",
-    89.95
-   ],
-   [
-    "2026-10-19",
-    61.85
-   ],
-   [
-    "2026-10-24",
-    63.01
-   ],
-   [
-    "2026-10-28",
-    89.95
-   ],
-   [
-    "2026-11-11",
-    89.75
-   ],
-   [
-    "2026-11-15",
-    24.22
-   ],
-   [
     "2026-11-16",
-    24.22
-   ]
-  ]
- },
- {
-  "key": "amazon_it:B0FWL84VLM",
-  "source": "amazon_it",
-  "category": "moda",
-  "name": "Pepe Jeans Jeans Dritti da Donna UHW Lexa Jeans, Blu (Denim-6CD), 25W/30L",
-  "price": 30.93,
-  "ref": 79.0,
-  "pct": 60.8,
-  "level": "offerta",
-  "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B0FWL84VLM?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/319LgOktC6L.jpg",
-  "currency": "EUR",
-  "at": "2026-11-16T07:13",
-  "history": [
-   [
-    "2026-09-12",
-    78.38
-   ],
-   [
-    "2026-09-17",
-    79.0
-   ],
-   [
-    "2026-10-09",
-    75.38
-   ],
-   [
-    "2026-10-16",
-    79.0
-   ],
-   [
-    "2026-10-21",
-    78.82
-   ],
-   [
-    "2026-10-27",
-    61.4
-   ],
-   [
-    "2026-10-31",
-    50.29
-   ],
-   [
-    "2026-11-06",
-    59.87
-   ],
-   [
-    "2026-11-11",
-    79.0
-   ],
-   [
-    "2026-11-16",
-    30.93
+    13.95
    ]
   ]
  },
@@ -1765,7 +1831,7 @@
   "url": "https://www.amazon.it/dp/B0CGCPYN5D?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/4158j0xKvFL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-09-03",
@@ -1810,6 +1876,144 @@
   ]
  },
  {
+  "key": "amazon_it:B0C7WFTR37",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "BRA Signature | Set di 3 padelle 20-24-26 cm, acciaio inox 18/10",
+  "price": 55.69,
+  "ref": 130.36,
+  "pct": 57.3,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0C7WFTR37?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/41h3xR7vGrL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-20",
+    61.49
+   ],
+   [
+    "2026-09-03",
+    83.99
+   ],
+   [
+    "2026-09-06",
+    113.99
+   ],
+   [
+    "2026-09-09",
+    154.99
+   ],
+   [
+    "2026-09-19",
+    209.99
+   ],
+   [
+    "2026-10-04",
+    213.92
+   ],
+   [
+    "2026-10-07",
+    75.99
+   ],
+   [
+    "2026-10-08",
+    103.99
+   ],
+   [
+    "2026-10-09",
+    150.2
+   ],
+   [
+    "2026-10-10",
+    151.41
+   ],
+   [
+    "2026-10-11",
+    204.45
+   ],
+   [
+    "2026-10-25",
+    179.99
+   ],
+   [
+    "2026-11-04",
+    133.75
+   ],
+   [
+    "2026-11-05",
+    131.88
+   ],
+   [
+    "2026-11-11",
+    132.98
+   ],
+   [
+    "2026-11-13",
+    130.98
+   ],
+   [
+    "2026-11-16",
+    55.69
+   ]
+  ]
+ },
+ {
+  "key": "amazon_it:B0DBM8TYJH",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Lagostina Goccia Set 2 Padelle 24/28 cm, Rivestimento in Ceramica Antiaderente, Scorrevolezza Ottimale, Pulizia Facile, Thermo-Signal, Sicura, Compatibile con Induzione",
+  "price": 29.98,
+  "ref": 61.99,
+  "pct": 51.6,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0DBM8TYJH?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31beE4SdYVL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-20",
+    44.99
+   ],
+   [
+    "2026-08-21",
+    61.99
+   ],
+   [
+    "2026-08-30",
+    84.99
+   ],
+   [
+    "2026-09-21",
+    51.5
+   ],
+   [
+    "2026-09-24",
+    51.5
+   ],
+   [
+    "2026-10-24",
+    51.5
+   ],
+   [
+    "2026-10-29",
+    79.37
+   ],
+   [
+    "2026-10-30",
+    80.12
+   ],
+   [
+    "2026-11-16",
+    29.98
+   ]
+  ]
+ },
+ {
   "key": "shopify_natkina_ch:43053097943201",
   "source": "shopify_natkina_ch",
   "category": "altro",
@@ -1822,7 +2026,7 @@
   "url": "https://natkina.com/products/fr09318a?variant=43053097943201",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/geometry-every-day-ring-571104.jpg?v=1765823039",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1851,7 +2055,7 @@
   "url": "https://natkina.com/products/er13245a?variant=43053097844897",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/geometry-every-day-earrings-819295.jpg?v=1716821227",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1880,7 +2084,7 @@
   "url": "https://natkina.com/products/ars104797w?variant=43023709700257",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/love-and-promise-band-silver-ring-by-fall-in-love-347460.jpg?v=1716821253",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1909,7 +2113,7 @@
   "url": "https://natkina.com/products/set85819rw?variant=43023752102049",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/tender-kiss-by-fall-in-love-silver-ring-857412.jpg?v=1716821338",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1938,7 +2142,7 @@
   "url": "https://natkina.com/products/set85904ew?variant=43083114381473",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/temptation-by-fall-in-love-silver-earrings-310171.jpg?v=1754338440",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1967,7 +2171,7 @@
   "url": "https://natkina.com/products/ars105390w?variant=43023710290081",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/love-you-by-fall-in-love-silver-ring-819920.jpg?v=1726043549",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -1996,7 +2200,7 @@
   "url": "https://natkina.com/products/er13384a?variant=43053097517217",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/geometry-half-hoop-earrings-409153.jpg?v=1716821230",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2025,7 +2229,7 @@
   "url": "https://natkina.com/products/ars104726w?variant=43023709208737",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/je-taime-by-fall-in-love-silver-ring-576900.jpg?v=1716821239",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2054,7 +2258,7 @@
   "url": "https://natkina.com/products/aes38662w?variant=43023709110433",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/temptation-by-fall-in-love-dangle-silver-earrings-422708.jpg?v=1739536470",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2083,7 +2287,7 @@
   "url": "https://natkina.com/products/set85819pw?variant=43083114643617",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/tender-kiss-by-fall-in-love-slver-pendant-770786.jpg?v=1725955431",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2112,7 +2316,7 @@
   "url": "https://natkina.com/products/set86516rw?variant=43023707930785",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/passion-by-fall-in-love-silver-ring-690191.jpg?v=1729165945",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2141,7 +2345,7 @@
   "url": "https://natkina.com/products/set85904pw?variant=43083114414241",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/sunny-by-fall-in-love-silver-pendant-684402.jpg?v=1716821292",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2170,7 +2374,7 @@
   "url": "https://natkina.com/products/ars104838w?variant=43023707177121",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/te-amo-by-fall-in-love-silver-ring-992782.jpg?v=1716821338",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2187,6 +2391,103 @@
   ]
  },
  {
+  "key": "amazon_it:B0C85W28R5",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Yale Mezzo Cilindro Europeo di sicurezza standard per serratura YC052KD351003N1 Nichelato, 35/10mm, 3 Chiavi",
+  "price": 8.69,
+  "ref": 16.66,
+  "pct": 47.8,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0C85W28R5?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/31wE7eIoxfL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-25",
+    23.95
+   ],
+   [
+    "2026-08-30",
+    21.08
+   ],
+   [
+    "2026-09-03",
+    19.82
+   ],
+   [
+    "2026-09-04",
+    26.91
+   ],
+   [
+    "2026-09-09",
+    22.6
+   ],
+   [
+    "2026-09-11",
+    21.02
+   ],
+   [
+    "2026-09-17",
+    19.76
+   ],
+   [
+    "2026-09-18",
+    18.38
+   ],
+   [
+    "2026-09-22",
+    29.8
+   ],
+   [
+    "2026-09-24",
+    20.86
+   ],
+   [
+    "2026-09-26",
+    18.57
+   ],
+   [
+    "2026-09-30",
+    29.8
+   ],
+   [
+    "2026-10-08",
+    10.14
+   ],
+   [
+    "2026-10-13",
+    16.66
+   ],
+   [
+    "2026-10-24",
+    18.05
+   ],
+   [
+    "2026-10-25",
+    18.0
+   ],
+   [
+    "2026-10-28",
+    17.93
+   ],
+   [
+    "2026-10-31",
+    25.7
+   ],
+   [
+    "2026-11-12",
+    34.55
+   ],
+   [
+    "2026-11-16",
+    8.69
+   ]
+  ]
+ },
+ {
   "key": "shopify_natkina_ch:43053097812129",
   "source": "shopify_natkina_ch",
   "category": "altro",
@@ -2199,7 +2500,7 @@
   "url": "https://natkina.com/products/er13247a?variant=43053097812129",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/geometry-minimalistic-stud-earrings-612731.jpg?v=1716821536",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2228,7 +2529,7 @@
   "url": "https://www.amazon.it/dp/B08B3KHMHY?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31NqD6H7f-L.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-25",
@@ -2337,7 +2638,7 @@
   "url": "https://natkina.com/products/fushion-band-half-round-half-emerald-cut-silver-ring?variant=42765889765537",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/halfhalf-fashion-band-silver-ring-198145.jpg?v=1773030058",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2354,131 +2655,75 @@
   ]
  },
  {
-  "key": "amazon_it:B06XQ6CJRD",
+  "key": "amazon_it:B0F448XJG3",
   "source": "amazon_it",
   "category": "altro",
-  "name": "aiino USB-C to VGA Adapter, Bianco",
-  "price": 7.67,
-  "ref": 12.58,
-  "pct": 39.0,
+  "name": "Object Objgalia L/S Re Knit Cardigan Noos, Melange Grigio Medio, L",
+  "price": 13.98,
+  "ref": 23.23,
+  "pct": 39.8,
   "level": "offerta",
   "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B06XQ6CJRD?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/31IEiybiiEL.jpg",
+  "url": "https://www.amazon.it/dp/B0F448XJG3?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/41qvFutyBYL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
-    "2026-08-18",
-    19.15
-   ],
-   [
-    "2026-08-20",
-    17.24
-   ],
-   [
-    "2026-08-22",
-    15.52
-   ],
-   [
-    "2026-08-24",
-    13.98
-   ],
-   [
-    "2026-08-27",
-    12.58
-   ],
-   [
-    "2026-08-28",
-    30.13
-   ],
-   [
-    "2026-09-01",
-    19.58
+    "2026-08-19",
+    59.99
    ],
    [
     "2026-09-04",
-    17.62
-   ],
-   [
-    "2026-09-11",
-    16.03
+    36.06
    ],
    [
     "2026-09-16",
-    16.43
+    34.68
    ],
    [
-    "2026-09-18",
-    29.49
+    "2026-09-20",
+    31.87
    ],
    [
-    "2026-09-19",
-    29.87
-   ],
-   [
-    "2026-09-21",
-    30.48
-   ],
-   [
-    "2026-09-23",
-    20.01
-   ],
-   [
-    "2026-09-25",
-    18.01
+    "2026-09-24",
+    37.84
    ],
    [
     "2026-09-27",
-    16.21
+    37.72
    ],
    [
-    "2026-10-02",
-    16.47
+    "2026-10-12",
+    36.96
    ],
    [
-    "2026-10-07",
-    16.81
+    "2026-10-18",
+    28.68
    ],
    [
-    "2026-10-10",
-    16.09
-   ],
-   [
-    "2026-10-20",
-    14.48
-   ],
-   [
-    "2026-10-22",
-    13.03
-   ],
-   [
-    "2026-10-24",
-    11.76
+    "2026-10-23",
+    35.78
    ],
    [
     "2026-10-28",
-    13.51
+    36.23
    ],
    [
-    "2026-10-31",
-    14.9
+    "2026-11-02",
+    23.23
    ],
    [
-    "2026-11-11",
-    15.79
+    "2026-11-06",
+    36.64
    ],
    [
     "2026-11-12",
-    29.16
-   ],
-   [
-    "2026-11-14",
-    21.29
+    37.67
    ],
    [
     "2026-11-16",
-    7.67
+    13.98
    ]
   ]
  },
@@ -2495,7 +2740,7 @@
   "url": "https://www.amazon.it/dp/B0D459LFZB?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/31P2XbVjRJL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-19",
@@ -2640,147 +2885,6 @@
   ]
  },
  {
-  "key": "amazon_it:B001DXMGC8",
-  "source": "amazon_it",
-  "category": "altro",
-  "name": "HP Toner Ciano Laserjet Cp2025/Cm2320",
-  "price": 29.12,
-  "ref": 44.8,
-  "pct": 35.0,
-  "level": "offerta",
-  "shop": "Amazon.it",
-  "url": "https://www.amazon.it/dp/B001DXMGC8?tag=offertecrolla-21",
-  "image": "https://m.media-amazon.com/images/I/41JYWKkLr+L.jpg",
-  "currency": "EUR",
-  "at": "2026-11-16T07:13",
-  "history": [
-   [
-    "2026-08-22",
-    56.58
-   ],
-   [
-    "2026-08-23",
-    173.89
-   ],
-   [
-    "2026-08-24",
-    65.15
-   ],
-   [
-    "2026-08-25",
-    65.15
-   ],
-   [
-    "2026-08-26",
-    65.15
-   ],
-   [
-    "2026-08-28",
-    140.85
-   ],
-   [
-    "2026-08-29",
-    126.76
-   ],
-   [
-    "2026-09-01",
-    114.08
-   ],
-   [
-    "2026-09-03",
-    102.67
-   ],
-   [
-    "2026-09-04",
-    173.89
-   ],
-   [
-    "2026-09-09",
-    170.41
-   ],
-   [
-    "2026-09-11",
-    79.99
-   ],
-   [
-    "2026-09-22",
-    65.38
-   ],
-   [
-    "2026-09-23",
-    79.99
-   ],
-   [
-    "2026-09-25",
-    93.99
-   ],
-   [
-    "2026-10-01",
-    164.95
-   ],
-   [
-    "2026-10-02",
-    158.69
-   ],
-   [
-    "2026-10-03",
-    64.44
-   ],
-   [
-    "2026-10-08",
-    93.99
-   ],
-   [
-    "2026-10-16",
-    93.38
-   ],
-   [
-    "2026-10-18",
-    87.79
-   ],
-   [
-    "2026-10-21",
-    81.66
-   ],
-   [
-    "2026-10-25",
-    93.99
-   ],
-   [
-    "2026-10-27",
-    56.99
-   ],
-   [
-    "2026-10-30",
-    93.99
-   ],
-   [
-    "2026-10-31",
-    92.22
-   ],
-   [
-    "2026-11-04",
-    83.0
-   ],
-   [
-    "2026-11-05",
-    74.7
-   ],
-   [
-    "2026-11-11",
-    75.43
-   ],
-   [
-    "2026-11-14",
-    78.23
-   ],
-   [
-    "2026-11-16",
-    29.12
-   ]
-  ]
- },
- {
   "key": "amazon_it:B0DTYZH8WR",
   "source": "amazon_it",
   "category": "altro",
@@ -2793,7 +2897,7 @@
   "url": "https://www.amazon.it/dp/B0DTYZH8WR?tag=offertecrolla-21",
   "image": "https://m.media-amazon.com/images/I/41rcdzg8TSL.jpg",
   "currency": "EUR",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-08-22",
@@ -2870,7 +2974,7 @@
   "url": "https://natkina.com/products/raspberry-silver-ring?variant=54984021737849",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/raspberry-silver-ring-357108.jpg?v=1765907506",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2887,6 +2991,51 @@
   ]
  },
  {
+  "key": "amazon_it:B0DQQDH272",
+  "source": "amazon_it",
+  "category": "altro",
+  "name": "Screamer - Day One Edition",
+  "price": 19.99,
+  "ref": 29.99,
+  "pct": 33.3,
+  "level": "offerta",
+  "shop": "Amazon.it",
+  "url": "https://www.amazon.it/dp/B0DQQDH272?tag=offertecrolla-21",
+  "image": "https://m.media-amazon.com/images/I/51ffkf6tbmL.jpg",
+  "currency": "EUR",
+  "at": "2026-11-16T09:40",
+  "history": [
+   [
+    "2026-08-23",
+    69.99
+   ],
+   [
+    "2026-08-26",
+    58.99
+   ],
+   [
+    "2026-09-03",
+    69.99
+   ],
+   [
+    "2026-09-04",
+    29.99
+   ],
+   [
+    "2026-09-21",
+    69.99
+   ],
+   [
+    "2026-10-13",
+    69.99
+   ],
+   [
+    "2026-11-16",
+    19.99
+   ]
+  ]
+ },
+ {
   "key": "shopify_natkina_ch:43417685131425",
   "source": "shopify_natkina_ch",
   "category": "altro",
@@ -2899,7 +3048,7 @@
   "url": "https://natkina.com/products/set87489t?variant=43417685131425",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/shape-silver-bracelet-330198.jpg?v=1725554638",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2928,7 +3077,7 @@
   "url": "https://natkina.com/products/set87489p?variant=43417685065889",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/shape-silver-necklace-533126.jpg?v=1725554639",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2957,7 +3106,7 @@
   "url": "https://natkina.com/products/set87489e?variant=43417685000353",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/shape-silver-earrings-554006.jpg?v=1725554638",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -2986,7 +3135,7 @@
   "url": "https://natkina.com/products/tke0240w?variant=42741230502049",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/dazzling-transformer-earrings-206795.jpg?v=1739535943",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3015,7 +3164,7 @@
   "url": "https://natkina.com/products/tke0241w?variant=42741230698657",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/graceful-oval-transformer-silver-earrings-126012.jpg?v=1754380577",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3044,7 +3193,7 @@
   "url": "https://natkina.com/products/tke0238w?variant=42741229682849",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/incredible-round-transformer-silver-earrings-435733.jpg?v=1742303815",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3073,7 +3222,7 @@
   "url": "https://natkina.com/products/tke0239w?variant=42741230043297",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/admirable-transformer-earrings-188933.jpg?v=1742302899",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3102,7 +3251,7 @@
   "url": "https://natkina.com/products/ze1002486?variant=44503768006817",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-octagon-silver-earrings-393527.jpg?v=1723897050",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3131,7 +3280,7 @@
   "url": "https://natkina.com/products/infinity-silver-band?variant=42640174874785",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/silver-infinity-diamond-alternative-band-561153.jpg?v=1761651273",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3160,7 +3309,7 @@
   "url": "https://natkina.com/products/r0092n?variant=56309645279609",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/pink-blossom-necklace-5024417.png?v=1776332534",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3189,7 +3338,7 @@
   "url": "https://natkina.com/products/ke32625?variant=44591618687137",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/dangle-chic-earrings-277600.jpg?v=1750303784",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3218,7 +3367,7 @@
   "url": "https://natkina.com/products/melany-ring?variant=42640198434977",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/diamond-alternative-silver-band-ring-965009.jpg?v=1770713222",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3247,7 +3396,7 @@
   "url": "https://natkina.com/products/set86126ew?variant=44496698933409",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-snow-leopard-silver-ring-719062.jpg?v=1723897054",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3276,7 +3425,7 @@
   "url": "https://natkina.com/products/jr3752w?variant=44309675049121",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/serpentine-heart-silver-ring-peach-fuzz-collection-886304.jpg?v=1729001230",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3305,7 +3454,7 @@
   "url": "https://natkina.com/products/yak010?variant=43526918930593",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/silver-elegance-body-chain-541499.jpg?v=1735213968",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3334,7 +3483,7 @@
   "url": "https://natkina.com/products/yak019?variant=43526919422113",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/luna-chain-bralette-138691.jpg?v=1735214195",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3363,7 +3512,7 @@
   "url": "https://natkina.com/products/yak006?variant=43526918635681",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/radiant-elegance-body-chain-544545.jpg?v=1735214195",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3392,7 +3541,7 @@
   "url": "https://natkina.com/products/yak003?variant=43526918439073",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/serene-symphony-body-chain-925660.jpg?v=1735213968",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3421,7 +3570,7 @@
   "url": "https://natkina.com/products/yak011?variant=43526918996129",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/golden-luxe-body-chain-646082.jpg?v=1735214139",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3450,7 +3599,7 @@
   "url": "https://natkina.com/products/yak009?variant=43526918865057",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/harmony-body-chain-986970.jpg?v=1735214139",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3479,7 +3628,7 @@
   "url": "https://natkina.com/products/yak0501?variant=43526918504609",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/lumina-grace-body-chain-583206.jpg?v=1735214195",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3508,7 +3657,7 @@
   "url": "https://natkina.com/products/yak008?variant=43526918766753",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/glimmer-lariat-chain-638902.jpg?v=1735214138",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3537,7 +3686,7 @@
   "url": "https://natkina.com/products/yak007?variant=43526918701217",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/divine-cascade-body-chain-423517.jpg?v=1735214085",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3566,7 +3715,7 @@
   "url": "https://natkina.com/products/yak005?variant=43526918570145",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/enchanted-radiance-body-chain-515717.jpg?v=1735214134",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3595,7 +3744,7 @@
   "url": "https://natkina.com/products/yak014?variant=43526919159969",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/cascade-charm-waist-462900.jpg?v=1735214083",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3624,7 +3773,7 @@
   "url": "https://natkina.com/products/yak002?variant=43526918373537",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/dazzle-body-chain-358317.jpg?v=1735214085",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3653,7 +3802,7 @@
   "url": "https://natkina.com/products/yak001?variant=43526918308001",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/celestial-allure-body-chain-786582.jpg?v=1735214084",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3682,7 +3831,7 @@
   "url": "https://natkina.com/products/jr4536w?variant=43024401760417",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/memorable-cz-silver-ring-932040.jpg?v=1726838869",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3711,7 +3860,7 @@
   "url": "https://natkina.com/products/tkn0216w?variant=42741227552929",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/classic-single-pear-cut-silver-necklace-190292.jpg?v=1716821058",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3740,7 +3889,7 @@
   "url": "https://natkina.com/products/fine-ring-black-diamond?variant=42577096802465",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/fine-silver-ring-958184.jpg?v=1721136737",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3769,7 +3918,7 @@
   "url": "https://natkina.com/products/ke31650?variant=43417684246689",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/studs-silver-earrings-901532.jpg?v=1725554638",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3798,7 +3947,7 @@
   "url": "https://natkina.com/products/ze1004379?variant=44503769940129",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/ze1004379-624948.jpg?v=1724311731",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3827,7 +3976,7 @@
   "url": "https://natkina.com/products/e01799?variant=44503769153697",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-yin-and-yang-silver-earrings-571739.jpg?v=1730206074",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3856,7 +4005,7 @@
   "url": "https://natkina.com/products/r01690?variant=44503768957089",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-black-mirror-silver-ring-651720.jpg?v=1740132552",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3885,7 +4034,7 @@
   "url": "https://natkina.com/products/r01691?variant=44503768629409",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-silver-ring-730471.jpg?v=1730269770",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3914,7 +4063,7 @@
   "url": "https://natkina.com/products/ze1003955?variant=44503768498337",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-flowers-silver-earrings-981399.jpg?v=1737534431",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3943,7 +4092,7 @@
   "url": "https://natkina.com/products/ze1001891?variant=44503768137889",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-quantum-silver-earrings-487938.jpg?v=1723897052",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -3972,7 +4121,7 @@
   "url": "https://natkina.com/products/set88064r?variant=44496700178593",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-zebra-silver-ring-381526.jpg?v=1723897055",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4001,7 +4150,7 @@
   "url": "https://natkina.com/products/vrs15093?variant=44496698966177",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-salamander-silver-ring-637067.jpg?v=1737534431",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4030,7 +4179,7 @@
   "url": "https://natkina.com/products/jr4725w?variant=44468133789857",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/black-and-white-black-queen-silver-ring-290067.jpg?v=1740133027",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4059,7 +4208,7 @@
   "url": "https://natkina.com/products/je1024w06-1?variant=44309680619681",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/3-flowers-silver-earrings-peach-fuzz-collection-ss24-980691.jpg?v=1731346944",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4088,7 +4237,7 @@
   "url": "https://natkina.com/products/cjr4553w?variant=43024395108513",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/stunning-multicolored-cz-silver-ring-560129.jpg?v=1721069256",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4117,7 +4266,7 @@
   "url": "https://natkina.com/products/str23n808b?variant=44324037034145",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/classic-black-white-silver-ring-ss24-239350.jpg?v=1723234289",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4146,7 +4295,7 @@
   "url": "https://natkina.com/products/ste23b808b?variant=44324037001377",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/classic-black-white-earrings-577451.jpg?v=1737700230",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4175,7 +4324,7 @@
   "url": "https://natkina.com/products/tkn0225w?variant=42741228109985",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/beautiful-round-and-cushion-cut-silver-necklace-704454.jpg?v=1716820934",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4204,7 +4353,7 @@
   "url": "https://natkina.com/products/tkb0217w?variant=42741227389089",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/charming-emerald-cut-10-x-75-mm-bracelet-176804.jpg?v=1716821051",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4233,7 +4382,7 @@
   "url": "https://natkina.com/products/tkr0242w?variant=42741230993569",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/breathtaking-asscher-engagement-ring-with-tappered-baguettes-294132.jpg?v=1765924225",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4262,7 +4411,7 @@
   "url": "https://natkina.com/products/tkr0235w?variant=42741229322401",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/kim-kardashian-inspired-engagement-ring-717267.jpg?v=1721069256",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4291,7 +4440,7 @@
   "url": "https://natkina.com/products/tkr0234w?variant=42741229125793",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/grace-kelly-inspired-engagement-ring-829425.jpg?v=1716821228",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
@@ -4320,7 +4469,7 @@
   "url": "https://natkina.com/products/tkr0230w?variant=42741228634273",
   "image": "https://cdn.shopify.com/s/files/1/0423/1764/3937/files/asscher-ring-9476562.jpg?v=1794304676",
   "currency": "CHF",
-  "at": "2026-11-16T07:13",
+  "at": "2026-11-16T09:40",
   "history": [
    [
     "2026-11-14",
