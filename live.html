@@ -12,10 +12,45 @@ iframe{width:100%;height:100%;border:0;display:block;background:#070707}
 @keyframes p{50%{opacity:.55}}
 #info{position:fixed;left:8px;bottom:8px;color:#777;font-size:12px;max-width:calc(50vw - 30vh);line-height:1.5}
 #info b{color:#ccc}
+#info select,#info label{font-size:12px;margin-top:6px}#info select{max-width:100%;background:#111;color:#ccc;border:1px solid #333;border-radius:6px;padding:4px}
+#go{position:fixed;inset:0;background:#070707e8;display:flex;align-items:center;justify-content:center;z-index:9}
+#go button{font:900 22px system-ui;padding:18px 40px;border:0;border-radius:99px;background:#e30613;color:#fff;cursor:pointer}
 </style></head><body>
 <div id="st"><iframe id="f" src="/"></iframe><span id="tag">● LIVE</span></div>
-<p id="info"><b>Live automatica</b><br>Il sito cerca da solo prodotti a caso.<br>Quando qualcuno chiede un prodotto nei commenti, clicca nella ricerca del sito e scrivilo tu: il giro automatico si ferma.<br>Dopo <b>90 secondi</b> senza che tocchi niente, riparte da solo.<br><span id="stato"></span></p>
+<p id="info"><b>Live automatica</b><br>Il sito cerca da solo prodotti a caso.<br>Quando qualcuno chiede un prodotto nei commenti, clicca nella ricerca del sito e scrivilo tu: il giro automatico si ferma.<br>Dopo <b>90 secondi</b> senza che tocchi niente, riparte da solo.<br><span id="stato"></span><br>
+<label><input type="checkbox" id="voce" checked> voce</label><br><select id="vsel"></select></p>
+<div id="go"><button type="button" onclick="this.parentNode.remove();voceOk=true;parla(pick(['Ciao a tutti e benvenuti! Oggi andiamo a caccia di offerte. Scrivete nei commenti cosa vi serve e lo cerchiamo insieme.','Eccoci qua, benvenuti! Se cercate qualcosa scrivetelo nei commenti, intanto vi faccio vedere un po\' di affari.']))">▶ Avvia live</button></div>
 <script>
+var voceOk=false,voci=[];
+function pick(a){return a[Math.floor(Math.random()*a.length)]}
+function vociIt(){var sc=function(x){return (/natural/i.test(x.name)?4:0)+(/online|neural/i.test(x.name)?2:0)+(/google/i.test(x.name)?1:0)};
+ return voci.filter(function(x){return /^it/i.test(x.lang)}).sort(function(a,b){return sc(b)-sc(a)})}
+function riempi(){voci=speechSynthesis.getVoices();var sel=document.getElementById("vsel"),k=sel.value;
+ sel.innerHTML=vociIt().map(function(x){return "<option>"+x.name+"</option>"}).join("");try{k=k||localStorage.getItem("ocv")}catch(e){}if(k)sel.value=k}
+if(window.speechSynthesis){riempi();speechSynthesis.onvoiceschanged=riempi}
+function parla(t){if(!voceOk||!document.getElementById("voce").checked||!window.speechSynthesis)return Promise.resolve();
+ speechSynthesis.cancel();return new Promise(function(res){var u=new SpeechSynthesisUtterance(t);u.lang="it-IT";u.rate=1.03;
+ var n=document.getElementById("vsel").value,v=vociIt().filter(function(x){return x.name==n})[0]||vociIt()[0];if(v)u.voice=v;
+ u.onend=res;u.onerror=res;speechSynthesis.speak(u);setTimeout(res,30000)})}
+document.getElementById("vsel").addEventListener("change",function(){try{localStorage.setItem("ocv",this.value)}catch(e){}parla("Ciao, questa è la mia voce.")});
+function soldi(t){t=String(t||"").replace(/invece di/i,"").replace(/CHF/,"").trim();var cur=/CHF/.test(t)?"franchi":"euro";
+ var m=t.replace(/[^\d,]/g,"").split(",");var e=m[0]||"",c=(m[1]||"").replace(/^0+/,"");var v=(/€/.test(t)||!/CHF/.test(t))?"euro":"franchi";return e+" "+v+(c&&c!="0"?" e "+c:"")}
+function nomeBreve(n){var p=String(n).split(/[,|(\[–]/);var w=p[0].trim().split(/\s+/).slice(0,7);while(w.length>2&&STOP.test(w[w.length-1]))w.pop();var b=w.join(" ");
+ var extra=p.slice(1).map(function(x){return x.trim()}).filter(function(x){return x.length>3&&x.length<45&&!/\d{4,}|\d\s*x\s*\d|\d{2,}\s*(cm|mm|ml|pz)\b/i.test(x)}).slice(0,2);return [b,extra]}
+function prodottoDa(card){if(!card)return null;var g=function(s){var e=card.querySelector(s);return e?e.textContent.trim():""};
+ return {nome:g("h3"),prezzo:g(".pr b"),prima:g(".pr s"),pct:g(".pct").replace(/[^\d]/g,""),shop:g(".shop")}}
+function racconta(p,q,n){var nb=nomeBreve(p.nome),b=nb[0],ex=nb[1];var sh=p.shop.replace(/\.it$|\.ch$/i,"");
+ var a=[];
+ if(q)a.push(pick(["Allora, vediamo un po' cosa c'è per "+q+".","Andiamo a vedere "+q+".","Proviamo con "+q+".",q+"! Vediamo cosa troviamo."])+(n>1?" Ne abbiamo "+n+" in offerta.":""));
+ a.push(pick(["Guardate questo: ","Allora, questo qui è ","Qui abbiamo ","Questo mi piace: ","Date un'occhiata a "])+b+".");
+ if(ex.length)a.push(pick(["In pratica: ","Caratteristiche: ",""])+ex.join(", ").toLowerCase()+".");
+ if(p.pct&&+p.pct>=60)a.push(pick(["Lo sconto è del "+p.pct+" per cento, che non si vede tutti i giorni.","Meno "+p.pct+" per cento, roba seria.","Siamo al "+p.pct+" per cento di sconto, occhio."]));
+ else if(p.pct)a.push(pick(["Scontato del "+p.pct+" per cento.","Sconto del "+p.pct+" per cento.",""]));
+ a.push(pick(["Adesso sta a ","Lo trovate a ","Il prezzo è ","Costa "])+soldi(p.prezzo)+(p.prima?pick([", invece di "+soldi(p.prima)+"."," al posto di "+soldi(p.prima)+"."]):".")+(sh?pick([" Lo vende "+sh+"."," Su "+sh+".",""]):""));
+ if(Math.random()<.3)a.push(pick(["Il link lo trovate sul canale Telegram.","Lo trovate sul sito offerte crollate punto it.","Se vi interessa, andate sul canale Telegram che c'è il link."]));
+ return a.join(" ")}
+function visibili(){var d=D();return d?[].slice.call(d.querySelectorAll("#grid .deal")).filter(function(c){return c.offsetParent!==null}):[]}
+var STOP=/^(con|senza|per|di|da|in|e|a|il|la|le|lo|gli|i|un|una|del|della|dei|delle|al|alla|su|the|and|with|for|of)$/i;
 var PAUSA=90000,ultimo=0,auto=false,parole=[],F=document.getElementById("f");
 var BASE=["cuffie","tv","smartphone","ps5","monitor","ipad","scarpe","giacca","zaino","friggitrice","caffè","cioccolato","aspirapolvere","robot","orologio","tablet","notebook","mouse","tastiera","casse","lego","borraccia","sneakers","felpa","trapano","lampada","caricatore","power bank","videocamera","occhiali"];
 function W(){return F.contentWindow}function D(){try{return F.contentDocument}catch(e){return null}}
@@ -23,12 +58,18 @@ function sleep(ms){return new Promise(function(r){setTimeout(r,ms)})}
 function stato(t){document.getElementById("stato").textContent=t}
 function utente(){return Date.now()-ultimo<PAUSA}
 function aggancia(){var d=D();if(!d)return;
- ["keydown","mousedown","touchstart","wheel"].forEach(function(ev){d.addEventListener(ev,function(e){if(e.isTrusted){ultimo=Date.now();stato("⏸ in pausa: stai usando tu il sito")}},true)});
+ ["keydown","mousedown","touchstart","wheel"].forEach(function(ev){d.addEventListener(ev,function(e){if(e.isTrusted){if(e.type=="keydown"&&window.speechSynthesis)speechSynthesis.cancel();ultimo=Date.now();stato("⏸ in pausa: stai usando tu il sito")}},true)});
  var st=d.createElement("style");st.textContent=".totop{display:none!important}";d.head.appendChild(st);
  fetch("/deals.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){
   var w={};j.forEach(function(x){String(x.name).toLowerCase().split(/[^a-zàèéìòù0-9]+/).forEach(function(p){if(p.length>4&&!/^\d+$/.test(p))w[p]=(w[p]||0)+1})});
-  parole=Object.keys(w).filter(function(p){return w[p]>=4&&w[p]<80})}).catch(function(){})}
-F.addEventListener("load",function(){aggancia();if(!auto){auto=true;giro()}});
+  var NO=/^(senza|nuovo|nuova|colore|confezione|pezzi|bianco|nero|nera|bianca|grigio|donna|uomo|bambino|bambini|misura|taglia|compatibile|professionale|portatile|wireless|digitale|elettrico|elettrica|inclusi|incluso|regolabile|grande|piccolo|set|pack|ideale|qualità|perfetto|originale|ufficiale|versione|modello|super|extra|plus|ultra|mini|maxi|premium|light|sport|style|edition|series)$/;
+  parole=Object.keys(w).filter(function(p){return w[p]>=4&&w[p]<80&&!NO.test(p)&&!STOP.test(p)})}).catch(function(){})}
+var tq=null;
+function ascoltaRicerca(){var d=D(),q=d&&d.getElementById("q");if(!q)return;
+ q.addEventListener("input",function(e){if(!e.isTrusted)return;clearTimeout(tq);var v=q.value.trim();if(v.length<3)return;
+  tq=setTimeout(function(){var vis=visibili();if(!vis.length){parla(pick(["Per "+v+" adesso non ho niente in offerta, mi dispiace. Appena esce qualcosa lo mettiamo sul canale Telegram.","Niente da fare per "+v+", per ora. Seguite il canale Telegram, appena arriva un'offerta la mettiamo lì."]));return}
+   parla(racconta(prodottoDa(vis[0]),v,vis.length))},2200)})}
+F.addEventListener("load",function(){aggancia();ascoltaRicerca();if(!auto){auto=true;attendi()}});
 async function scrivi(q,txt){q.focus({preventScroll:true});q.value="";q.dispatchEvent(new Event("input",{bubbles:true}));
  for(var i=0;i<txt.length;i++){if(utente())return false;q.value+=txt[i];q.dispatchEvent(new Event("input",{bubbles:true}));await sleep(140+Math.random()*120)}
  q.blur();return true}
@@ -36,6 +77,7 @@ async function scorri(ms){var w=W(),t0=Date.now(),y0=w.scrollY;var g=D().getElem
  var max=g?Math.max(0,g.getBoundingClientRect().bottom+w.scrollY-w.innerHeight):D().body.scrollHeight;
  var fine=Math.min(max,y0+w.innerHeight*4);
  while(Date.now()-t0<ms){if(utente())return false;var f=(Date.now()-t0)/ms;w.scrollTo(0,y0+(fine-y0)*f);await sleep(40)}return true}
+async function attendi(){while(!voceOk&&document.getElementById("go"))await sleep(300);giro()}
 async function giro(){
  while(true){
   if(utente()){await sleep(1000);continue}
@@ -46,6 +88,11 @@ async function giro(){
   if(!await scrivi(q,t))continue;
   var n=d.querySelectorAll("#grid .deal:not(.hidden):not([hidden])").length;
   if(!d.getElementById("empty")||!d.getElementById("empty").classList.contains("hidden")){await sleep(2500);continue}
-  await sleep(2500);if(!await scorri(14000))continue;await sleep(2000);
+  var vis=visibili();
+  var detto=parla(racconta(prodottoDa(vis[0]),t,vis.length));await sleep(2500);
+  if(!await scorri(9000))continue;await detto;
+  var p2=vis.slice(1).map(prodottoDa).filter(function(x){return x&&x.nome!=prodottoDa(vis[0]).nome})[0];
+  if(p2&&!utente()&&Math.random()<.6){await parla(pick(["E poi c'è anche questo. ","Un'altra cosa interessante: ","Ah, guardate anche questo. "])+racconta(p2))}
+  if(!await scorri(4000))continue;await sleep(1500);
  }}
 </script></body></html>
