@@ -4,173 +4,48 @@
 <meta name="robots" content="noindex,nofollow">
 <title>Offerte Crollate – Live</title>
 <style>
-@font-face{font-family:M;src:url(/assets/fonts/montserrat-var.woff2) format("woff2");font-weight:100 900}
 *{box-sizing:border-box;margin:0}
-html,body{height:100%;background:#070707;color:#fff;font-family:M,system-ui,sans-serif;overflow:hidden}
-#st{position:relative;height:100vh;aspect-ratio:9/16;max-width:100vw;margin:0 auto;display:flex;flex-direction:column;
- background:radial-gradient(120% 60% at 50% 0%,#3a0d05 0%,#070707 60%);padding:3vh 3.2vh 2vh}
-.top{display:flex;align-items:center;gap:1.4vh}
-.top img{height:6vh;border-radius:50%}
-.top b{font-size:3vh;font-weight:900;letter-spacing:-.02em}
-.top small{display:block;font-size:1.5vh;color:#ffb199;font-weight:600}
-.live{margin-left:auto;background:#ff2d2d;font-weight:900;font-size:1.8vh;padding:.6vh 1.4vh;border-radius:99px;animation:p 1.6s infinite}
+html,body{height:100%;background:#070707;overflow:hidden;font-family:system-ui,sans-serif}
+#st{position:relative;height:100vh;aspect-ratio:9/16;max-width:100vw;margin:0 auto}
+iframe{width:100%;height:100%;border:0;display:block;background:#070707}
+#tag{position:absolute;bottom:14px;left:14px;background:#ff2d2d;color:#fff;font-weight:900;font-size:13px;padding:4px 10px;border-radius:99px;pointer-events:none;z-index:3;animation:p 1.6s infinite}
 @keyframes p{50%{opacity:.55}}
-#lbl{margin-top:2.4vh;font-size:2.4vh;font-weight:800;color:#ffcf4a;min-height:3vh}
-#card{flex:1;display:flex;flex-direction:column;margin-top:1.4vh;min-height:0}
-.ph{flex:1;min-height:0;background:#fff;border-radius:3vh;display:flex;align-items:center;justify-content:center;padding:3vh;position:relative}
-.ph img{max-width:100%;max-height:100%;object-fit:contain}
-.pct{position:absolute;top:1.8vh;left:1.8vh;background:#ff3b14;font-weight:900;font-size:5.5vh;padding:.4vh 2vh;border-radius:2vh;transform:rotate(-4deg);box-shadow:0 1vh 3vh #0007}
-.err{position:absolute;top:2vh;right:1.8vh;background:#ffcf4a;color:#111;font-weight:900;font-size:2vh;padding:.8vh 1.4vh;border-radius:1.4vh}
-h1{font-size:3.1vh;line-height:1.2;font-weight:800;margin-top:2vh;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.pr{display:flex;align-items:baseline;gap:2vh;margin-top:1.4vh}
-.pr b{font-size:7vh;font-weight:900;color:#ffcf4a;letter-spacing:-.03em}
-.pr s{font-size:3vh;color:#aaa}
-.shop{font-size:2.3vh;color:#ddd;margin-top:.6vh}
-.cta{margin-top:1.6vh;background:#229ed9;border-radius:2vh;padding:1.4vh 2vh;font-size:2.2vh;font-weight:800;text-align:center}
-.bar{height:.8vh;background:#ffffff22;border-radius:9px;margin-top:1.6vh;overflow:hidden}
-.bar i{display:block;height:100%;width:0;background:#ff3b14}
-.next{margin-top:1.2vh;font-size:1.7vh;color:#bbb;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-#res{display:none;flex:1;margin-top:1.4vh;grid-template-columns:1fr 1fr;gap:1.4vh;align-content:start;overflow:hidden}
-#res .r{background:#ffffff12;border-radius:2vh;padding:1.2vh;display:flex;flex-direction:column}
-#res .r div{background:#fff;border-radius:1.4vh;height:16vh;display:flex;align-items:center;justify-content:center;padding:1vh;position:relative}
-#res .r img{max-width:100%;max-height:100%;object-fit:contain}
-#res .r em{position:absolute;top:.6vh;left:.6vh;background:#ff3b14;font-style:normal;font-weight:900;font-size:2vh;padding:.2vh .8vh;border-radius:1vh}
-#res .r p{font-size:1.6vh;font-weight:700;margin-top:.8vh;height:4vh;overflow:hidden}
-#res .r b{font-size:2.6vh;color:#ffcf4a;font-weight:900}
-#res .r small{font-size:1.4vh;color:#bbb}
-#am{display:none;flex:1;margin-top:1.4vh;flex-direction:column;gap:1.2vh;min-height:0;overflow:hidden}
-#am .m{display:flex;gap:1.4vh;background:#ffffff12;border-radius:2vh;padding:1.2vh;position:relative}
-#am .m.best{background:#2a1a00;outline:.4vh solid #ffcf4a}
-#am .m .i{flex:0 0 14vh;height:14vh;background:#fff;border-radius:1.4vh;display:flex;align-items:center;justify-content:center;padding:.8vh}
-#am .m img{max-width:100%;max-height:100%;object-fit:contain}
-#am .m h4{font-size:1.75vh;line-height:1.25;font-weight:800;max-height:4.4vh;overflow:hidden}
-#am .m .v{font-size:1.6vh;color:#ffcf4a;margin-top:.4vh;font-weight:700}
-#am .m ul{font-size:1.4vh;color:#ccc;margin:.5vh 0 0;padding-left:2vh;max-height:5.6vh;overflow:hidden}
-#am .m b.p{position:absolute;right:1.4vh;bottom:1vh;font-size:2.8vh;font-weight:900;color:#fff}
-#am .m .tag{position:absolute;top:-1vh;right:1.4vh;background:#ffcf4a;color:#111;font-weight:900;font-size:1.6vh;padding:.3vh 1.2vh;border-radius:1vh}
-#srv{font-size:12px;color:#888}
-#start{position:absolute;inset:0;background:#070707ee;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2vh;z-index:5;text-align:center;padding:4vh}
-#start button{font:inherit;font-weight:900;font-size:3vh;padding:2vh 5vh;border:0;border-radius:99px;background:#ff3b14;color:#fff;cursor:pointer}
-#start p{color:#bbb;font-size:1.8vh;max-width:42vh;line-height:1.5}
-#ctl{position:fixed;left:0;right:0;bottom:0;background:#111;border-top:1px solid #333;padding:10px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;z-index:9;font-size:14px}
-#ctl input{flex:1;min-width:200px;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid #444;background:#000;color:#fff}
-#ctl button,#ctl select{font:inherit;font-size:14px;font-weight:700;padding:10px 12px;border-radius:10px;border:0;background:#333;color:#fff;cursor:pointer}
-#ctl button.k{background:#ff3b14}
-#ctl label{display:flex;gap:6px;align-items:center;color:#ccc}
-#ctl.hid{display:none}
-#hint{position:fixed;right:8px;top:8px;font-size:12px;color:#666;z-index:9}
+#info{position:fixed;left:8px;bottom:8px;color:#777;font-size:12px;max-width:calc(50vw - 30vh);line-height:1.5}
+#info b{color:#ccc}
 </style></head><body>
-<div id="st">
- <div class="top"><img src="/assets/logo_round.png" alt=""><div><b>Offerte Crollate</b><small>Errori di prezzo e sconti veri</small></div><span class="live">● LIVE</span></div>
- <p id="lbl"></p>
- <div id="card"></div>
- <div id="res"></div>
- <div id="am"></div>
- <div class="cta">📲 Link su Telegram: t.me/offertecrollate · 🌐 offertecrollate.<span id="tld">it</span></div>
- <div class="bar"><i id="bar"></i></div>
- <p class="next" id="next"></p>
- <div id="start"><b style="font-size:4vh">Modalità live</b>
-  <p>Premi Avvia: parte il giro automatico delle offerte con la voce. Scrivi un prodotto nella casella in basso per cercarlo. Tasto H: nascondi/mostra i comandi.</p>
-  <button type="button" onclick="avvia()">▶ Avvia</button></div>
-</div>
-<div id="ctl">
- <input id="q" placeholder="Cerca un prodotto chiesto nei commenti (es. cuffie) e premi Invio" autocomplete="off">
- <button type="button" class="k" onclick="cerca()">🔍 Cerca</button>
- <button type="button" onclick="torna()">↩ Giro offerte</button>
- <button type="button" onclick="prossima()">⏭ Prossima</button>
- <label>ogni <select id="min"><option>3</option><option selected>5</option><option>7</option><option>10</option></select> min</label>
- <label><input type="checkbox" id="voce" checked style="min-width:0;flex:0">voce</label>
- <select id="vsel" title="Voce"></select>
- <label>da <select id="soglia"><option value="40">40%</option><option value="50" selected>50%</option><option value="60">60%</option><option value="70">70%</option></select></label>
-</div>
-<span id="hint">H = comandi · <span id="srv">ricerca Amazon: spenta</span></span>
+<div id="st"><iframe id="f" src="/"></iframe><span id="tag">● LIVE</span></div>
+<p id="info"><b>Live automatica</b><br>Il sito cerca da solo prodotti a caso.<br>Quando qualcuno chiede un prodotto nei commenti, clicca nella ricerca del sito e scrivilo tu: il giro automatico si ferma.<br>Dopo <b>90 secondi</b> senza che tocchi niente, riparte da solo.<br><span id="stato"></span></p>
 <script>
-var D=[],visti={},cur=null,t0=0,timer=null,modo="giro",voci=[];
-var CH=location.hostname.indexOf(".ch")>0;document.getElementById("tld").textContent=CH?"ch":"it";
-var $=function(i){return document.getElementById(i)};
-var amz=function(d){return String(d.source||"").indexOf("amazon")==0};
-var eur=function(v,c){return (c=="CHF"?"CHF ":"")+Number(v).toLocaleString("it-IT",{minimumFractionDigits:2,maximumFractionDigits:2})+(c=="CHF"?"":" €")};
-var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
-function corto(n){n=String(n).split(/[,|(\[–-]/)[0];return n.split(" ").slice(0,8).join(" ")}
-function carica(){return fetch("/deals.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){
- D=j.filter(function(d){return d.image&&d.category!="adulti"&&String(d.category).indexOf("adult")<0})}).catch(function(){})}
-function vociIt(){var v=voci.filter(function(x){return /^it/i.test(x.lang)});
- var sc=function(x){return (/natural/i.test(x.name)?4:0)+(/online|neural/i.test(x.name)?2:0)+(/google/i.test(x.name)?1:0)};
- return v.sort(function(a,b){return sc(b)-sc(a)})}
-function riempiVoci(){voci=speechSynthesis.getVoices();var v=vociIt(),sel=$("vsel"),keep=sel.value;
- sel.innerHTML=v.map(function(x){return '<option>'+esc(x.name)+'</option>'}).join("");
- try{keep=keep||localStorage.getItem("ocv")||""}catch(e){}if(keep)sel.value=keep}
-function parla(txt){if(!$("voce").checked||!window.speechSynthesis)return;speechSynthesis.cancel();
- var u=new SpeechSynthesisUtterance(txt);u.lang="it-IT";u.rate=1;u.pitch=1;
- var n=$("vsel").value,v=vociIt().filter(function(x){return x.name==n})[0]||vociIt()[0];
- if(v)u.voice=v;speechSynthesis.speak(u)}
-if(window.speechSynthesis){riempiVoci();speechSynthesis.onvoiceschanged=riempiVoci}
-function scegli(){var s=+$("soglia").value;
- var c=D.filter(function(d){return !visti[d.key]&&(amz(d)||d.pct>=s)});
- if(!c.length){visti={};c=D.filter(function(d){return amz(d)||d.pct>=s})}
- if(!c.length)c=D.slice();
- c.sort(function(a,b){return (b.level=="errore")-(a.level=="errore")||b.pct-a.pct});
- var top=c.slice(0,Math.min(12,c.length));var a=top.filter(amz),o=top.filter(function(d){return !amz(d)});
- var pool=(Math.random()<.4&&a.length)?a:(o.length?o:top);return pool[Math.floor(Math.random()*pool.length)]}
-function mostra(d,annuncio){$("am").style.display="none";cur=d;visti[d.key]=1;modo="giro";$("res").style.display="none";$("card").style.display="flex";
- var err=!amz(d)&&d.pct>=80;
- $("lbl").textContent=err?"⚡ POSSIBILE ERRORE DI PREZZO":"🔥 OFFERTA DEL MOMENTO";
- $("card").innerHTML='<div class="ph">'+(amz(d)?"":'<span class="pct">-'+Math.round(d.pct)+'%</span>')+(err?'<span class="err">⚡ ERRORE?</span>':"")+'<img src="'+esc(d.image)+'" alt=""></div>'
-  +'<h1>'+esc(d.name)+'</h1><p class="pr"><b>'+eur(d.price,d.currency)+'</b>'+(amz(d)?"":'<s>'+eur(d.ref,d.currency)+'</s>')+'</p>'
-  +'<p class="shop">🛒 '+esc(d.shop)+'</p>';
- var p=Math.round(d.price*100)/100,e=Math.floor(p),c=Math.round((p-e)*100),val=d.currency=="CHF"?"franchi":"euro";
- var prezzo=e+" "+val+(c?" e "+c:"");
- var INTRO=["Guardate questa: ","Ecco un altro affare: ","Questa è interessante: ","Occhio a questa: ","Allora, adesso abbiamo ","Passiamo a ","Ecco qua: ",""];
- if(annuncio!==false)parla((err?"Attenzione, qui potrebbe esserci un errore di prezzo. ":INTRO[Math.floor(Math.random()*INTRO.length)])+corto(d.name)+", su "+d.shop+", a "+prezzo
-  +(amz(d)?"":", invece di "+Math.round(d.ref)+" "+val+". Sconto del "+Math.round(d.pct)+" per cento")+(Math.random()<.35?". Il link lo trovate sul canale Telegram.":"."));
- t0=Date.now();prossimi()}
-function prossimi(){var s=+$("soglia").value;var n=D.filter(function(d){return !visti[d.key]&&(amz(d)||d.pct>=s)}).sort(function(a,b){return b.pct-a.pct}).slice(0,3);
- $("next").textContent=n.length?"Prossime: "+n.map(function(d){return corto(d.name).split(" ").slice(0,4).join(" ")}).join(" · "):""}
-function tick(){var dur=+$("min").value*60000,f=Math.min(1,(Date.now()-t0)/dur);$("bar").style.width=(f*100)+"%";
- if(modo=="giro"&&f>=1)prossima();if(modo=="cerca"&&Date.now()-t0>180000)torna()}
-function prossima(){if(!D.length)return;mostra(scegli())}
-function torna(){$("q").value="";prossima()}
-function norm(s){return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")}
-function cerca(){var raw=$("q").value.trim();if(!raw)return;if(srvOk){cercaAmazon(raw);return}cercaSito(raw)}
-function cercaSito(raw,nota){$("am").style.display="none";var q=norm(raw).trim();var w=q.split(/\s+/).map(function(x){return x.length>4?x.slice(0,-1):x});
- var r=D.filter(function(d){var n=norm(d.name+" "+d.shop+" "+d.category);return w.every(function(x){return n.indexOf(x)>=0})})
-  .sort(function(a,b){return (amz(b)?50:b.pct)-(amz(a)?50:a.pct)});
- modo="cerca";t0=Date.now();$("bar").style.width="0";
- if(!r.length){$("lbl").textContent="🔍 "+$("q").value.toUpperCase();$("card").style.display="flex";$("res").style.display="none";
-  $("card").innerHTML='<div class="ph" style="background:#ffffff10;color:#fff;font-size:3vh;font-weight:800;text-align:center">Per ora nessuna offerta su "'+esc($("q").value)+'".<br><br>Appena esce la pubblichiamo su Telegram!</div>';
-  parla("Per "+$("q").value+" in questo momento non abbiamo offerte. Appena ne troviamo una la pubblichiamo sul canale Telegram.");return}
- $("lbl").textContent="🔍 "+$("q").value.toUpperCase()+" – "+r.length+(r.length==1?" offerta":" offerte");
- if(r.length==1){mostra(r[0],false);modo="cerca"}else{$("card").style.display="none";$("res").style.display="grid";
- $("res").innerHTML=r.slice(0,6).map(function(d){return '<div class="r"><div>'+(amz(d)?"":'<em>-'+Math.round(d.pct)+'%</em>')+'<img src="'+esc(d.image)+'" alt=""></div><p>'+esc(d.name)+'</p><b>'+eur(d.price,d.currency)+'</b><small>'+esc(d.shop)+'</small></div>'}).join("")}
- var b=r[0];parla("Per "+$("q").value+" abbiamo trovato "+(r.length==1?"un'offerta":r.length+" offerte")+". La migliore: "+corto(b.name)+", a "+eur(b.price,b.currency).replace("€","euro")+(amz(b)?"":", meno "+Math.round(b.pct)+" per cento")+".")}
-
-var SRV="http://localhost:8787",srvOk=false;
-function provaSrv(){fetch(SRV+"/stato").then(function(r){return r.json()}).then(function(){srvOk=true;$("srv").textContent="ricerca Amazon: attiva ✓";$("srv").style.color="#4c4"})
- .catch(function(){srvOk=false;$("srv").textContent="ricerca Amazon: spenta (avvia il programma sul PC)";$("srv").style.color="#888"})}
-provaSrv();setInterval(provaSrv,30000);
-function nascondiTutto(){$("card").style.display="none";$("res").style.display="none";$("am").style.display="none"}
-function num(n){return String(n).replace(".",",")}
-function cercaAmazon(q){nascondiTutto();modo="cerca";t0=Date.now()+60000;
- $("lbl").textContent="🔍 Cerco "+q.toUpperCase()+" su Amazon…";$("card").style.display="flex";
- $("card").innerHTML='<div class="ph" style="background:#ffffff10;color:#fff;font-size:3vh;font-weight:800">Sto confrontando i modelli…</div>';
- parla("Cerchiamo "+q+" su Amazon. Un attimo che confrontiamo i modelli migliori.");
- fetch(SRV+"/cerca?q="+encodeURIComponent(q)).then(function(r){return r.json()}).then(function(j){
-  var P=j.prodotti||[];if(!P.length){cercaSito(q,j.errore);return}
-  nascondiTutto();$("am").style.display="flex";$("lbl").textContent="🔍 "+q.toUpperCase()+": i migliori su Amazon";
-  $("am").innerHTML=P.map(function(p,i){return '<div class="m'+(i?"":" best")+'">'+(i?"":'<span class="tag">⭐ CONSIGLIATO</span>')
-   +'<div class="i"><img src="'+esc(p.img)+'" alt=""></div><div style="min-width:0;padding-right:11vh"><h4>'+esc(p.nome)+'</h4>'
-   +'<p class="v">'+(p.voto?"★ "+num(p.voto):"")+(p.recensioni?" · "+p.recensioni.toLocaleString("it-IT")+" recensioni":"")+'</p>'
-   +'<ul>'+(p.punti||[]).slice(0,2).map(function(c){return "<li>"+esc(c)+"</li>"}).join("")+'</ul></div>'
-   +'<b class="p">'+eur(p.prezzo,"EUR")+'</b></div>'}).join("");
-  var b=P[0],car=(b.punti||[]).slice(0,3).join(", ");
-  var txt="Per "+q+" il nostro consiglio è "+corto(b.nome)+", a "+eur(b.prezzo,"EUR").replace("€","euro")+". "
-   +(b.motivi&&b.motivi.length?"Lo consigliamo per: "+b.motivi.join(", ")+". ":"")+(car?"Caratteristiche principali: "+car+". ":"")
-   +(P.length>1?"In alternativa guardate anche "+corto(P[1].nome).split(" ").slice(0,5).join(" ")+". ":"")+"Il link lo mettiamo sul canale Telegram.";
-  parla(txt);t0=Date.now()+60000;
- }).catch(function(){cercaSito(q)})}
-function avvia(){$("start").style.display="none";parla("Benvenuti nella live di Offerte Crollate! Ogni pochi minuti vi mostriamo un'offerta. Scrivete nei commenti cosa cercate.");
- setTimeout(function(){prossima()},6000);timer=setInterval(tick,500)}
-$("q").addEventListener("keydown",function(e){if(e.key=="Enter")cerca();e.stopPropagation()});
-document.addEventListener("keydown",function(e){if(e.key=="h"||e.key=="H")$("ctl").classList.toggle("hid");if(e.key=="ArrowRight")prossima()});
-carica();setInterval(carica,600000);
-$("vsel").addEventListener("change",function(){try{localStorage.setItem("ocv",this.value)}catch(e){};parla("Ciao, questa è la mia voce.")});</script></body></html>
+var PAUSA=90000,ultimo=0,auto=false,parole=[],F=document.getElementById("f");
+var BASE=["cuffie","tv","smartphone","ps5","monitor","ipad","scarpe","giacca","zaino","friggitrice","caffè","cioccolato","aspirapolvere","robot","orologio","tablet","notebook","mouse","tastiera","casse","lego","borraccia","sneakers","felpa","trapano","lampada","caricatore","power bank","videocamera","occhiali"];
+function W(){return F.contentWindow}function D(){try{return F.contentDocument}catch(e){return null}}
+function sleep(ms){return new Promise(function(r){setTimeout(r,ms)})}
+function stato(t){document.getElementById("stato").textContent=t}
+function utente(){return Date.now()-ultimo<PAUSA}
+function aggancia(){var d=D();if(!d)return;
+ ["keydown","mousedown","touchstart","wheel"].forEach(function(ev){d.addEventListener(ev,function(e){if(e.isTrusted){ultimo=Date.now();stato("⏸ in pausa: stai usando tu il sito")}},true)});
+ var st=d.createElement("style");st.textContent=".totop{display:none!important}";d.head.appendChild(st);
+ fetch("/deals.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){
+  var w={};j.forEach(function(x){String(x.name).toLowerCase().split(/[^a-zàèéìòù0-9]+/).forEach(function(p){if(p.length>4&&!/^\d+$/.test(p))w[p]=(w[p]||0)+1})});
+  parole=Object.keys(w).filter(function(p){return w[p]>=4&&w[p]<80})}).catch(function(){})}
+F.addEventListener("load",function(){aggancia();if(!auto){auto=true;giro()}});
+async function scrivi(q,txt){q.focus({preventScroll:true});q.value="";q.dispatchEvent(new Event("input",{bubbles:true}));
+ for(var i=0;i<txt.length;i++){if(utente())return false;q.value+=txt[i];q.dispatchEvent(new Event("input",{bubbles:true}));await sleep(140+Math.random()*120)}
+ q.blur();return true}
+async function scorri(ms){var w=W(),t0=Date.now(),y0=w.scrollY;var g=D().getElementById("grid");
+ var max=g?Math.max(0,g.getBoundingClientRect().bottom+w.scrollY-w.innerHeight):D().body.scrollHeight;
+ var fine=Math.min(max,y0+w.innerHeight*4);
+ while(Date.now()-t0<ms){if(utente())return false;var f=(Date.now()-t0)/ms;w.scrollTo(0,y0+(fine-y0)*f);await sleep(40)}return true}
+async function giro(){
+ while(true){
+  if(utente()){await sleep(1000);continue}
+  var d=D(),q=d&&d.getElementById("q");if(!q){await sleep(1000);continue}
+  stato("▶ giro automatico");
+  var pool=BASE.concat(parole.slice(0,120)),t=pool[Math.floor(Math.random()*pool.length)];
+  W().scrollTo({top:0,behavior:"smooth"});await sleep(1500);
+  if(!await scrivi(q,t))continue;
+  var n=d.querySelectorAll("#grid .deal:not(.hidden):not([hidden])").length;
+  if(!d.getElementById("empty")||!d.getElementById("empty").classList.contains("hidden")){await sleep(2500);continue}
+  await sleep(2500);if(!await scorri(14000))continue;await sleep(2000);
+ }}
+</script></body></html>
