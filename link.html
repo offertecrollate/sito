@@ -21,10 +21,10 @@ small{display:block;color:#777;margin-top:22px;font-size:13px;line-height:1.5}
 <div class="row"><button type="button" onclick="incolla()">📋 Incolla</button><button type="button" class="k" onclick="crea()">Crea link</button></div>
 <div id="out"><b id="shop"></b><div id="res"></div><p id="msg"></p>
 <div class="row"><button type="button" class="ok" id="cp" onclick="copia()">Copia link</button><button type="button" id="sh" onclick="condividi()">Condividi</button><button type="button" onclick="window.open(R,'_blank')">Apri</button></div></div>
-<small>Negozi: Amazon.it, Amazon.de, Maxi Sport, Moulinex, Onestreet, Celebre Store, Acer Store, MediaMarkt CH.<br>AliExpress: il link va creato dal portale affiliati (portals.aliexpress.com), qui non si può.</small>
+<small>Negozi: Amazon.it, Amazon.de, Maxi Sport, Moulinex, Onestreet, Celebre Store, Acer Store, MediaMarkt CH, Mondadori Store.<br>AliExpress: il link va creato dal portale affiliati (portals.aliexpress.com), qui non si può.</small>
 </main><script>
 var TAG="offertecrolla-21",TAG_DE="offertecrol06-21",AFF="3152592",R="";
-var AW=[["maxisport.com","Maxi Sport",9923],["moulinex.it","Moulinex",9450],["onestreet.it","Onestreet",128805],["celebrestore.com","Celebre Store",118201],["store.acer.com","Acer Store",15530],["mediamarkt.ch","MediaMarkt",14040]];
+var AW=[["maxisport.com","Maxi Sport",9923],["moulinex.it","Moulinex",9450],["onestreet.it","Onestreet",128805],["celebrestore.com","Celebre Store",118201],["store.acer.com","Acer Store",15530],["mediamarkt.ch","MediaMarkt",14040],["mondadoristore.it","Mondadori Store",9423]];
 function $(i){return document.getElementById(i)}
 function incolla(){if(navigator.clipboard&&navigator.clipboard.readText)navigator.clipboard.readText().then(function(t){$("in").value=t;crea()}).catch(function(){$("in").focus()});else $("in").focus()}
 function estrai(t){var m=String(t).match(/https?:\/\/[^\s"'<>]+/i);return m?m[0]:""}
